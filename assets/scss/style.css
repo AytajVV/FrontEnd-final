@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-menu {
+  background-color: white;
+  border: none;
+  border-bottom: 1px solid rgb(196, 198, 205);
+  display: flex;
+}
+.main-menu a {
+  text-decoration: none;
+  color: rgb(145, 148, 161);
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+}
+.main-menu a:hover {
+  color: blue;
+}
+.main-menu div {
+  padding: 12px 0px;
+  margin-left: 15px;
+  font-size: 13px;
+}
+.main-menu .about-us {
+  margin-left: 215px;
+  color: rgb(196, 198, 205);
+}
+.main-menu .icon {
+  width: 380px;
+  height: 38px;
+  margin-left: 180px;
+  padding: 10px;
+  display: flex;
+}
+.main-menu img {
+  width: 20px;
+  height: 20px;
+}
+.main-menu .secureSpan {
+  padding: 1px 0px;
+  margin-left: 8px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  color: rgb(196, 198, 205);
+  border-right: 1px solid rgb(196, 198, 205);
+  width: 360px;
+}
+.main-menu .needHelp {
+  width: 200px;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(196, 198, 205);
+  padding: 10px 0px;
+  border-right: 1px solid rgb(196, 198, 205);
+}
+.main-menu .needHelp a {
+  color: rgb(111, 211, 251);
+}
+.main-menu .needHelp a:hover {
+  text-decoration: underline;
+}
+.main-menu .dropdown {
+  position: relative;
+  display: inline-block;
+}
+.main-menu .dropdown:hover {
+  color: blue;
+}
+.main-menu .dropdown-content {
+  opacity: 0;
+  visibility: visible;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  left: -30px;
+  top: 40px;
+  transition: all 0.5s;
+}
+.main-menu .dropdown:hover .dropdown-content {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+.main-menu .dropdown-content a {
+  color: black;
+  padding: 3px 16px;
+  text-decoration: none;
+  display: block;
+}
+.main-menu .dropdown-content a:hover {
+  color: blue;
+}
+
+@media (max-width: 1300px) {
+  #headertop {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
