@@ -38,7 +38,7 @@
         font-size: 13px;
     }
     .about-us{
-        margin-left: 215px;
+        margin-left: 177px;
         color: rgba(196,198,205,255);
     }
     .icon{
@@ -115,5 +115,35 @@
 @media (max-width:1300px){
     #headertop{
         display: none;
+    }
+}
+
+.navbar{
+    padding: 27px 0px;
+}
+
+.navbar-brand{
+    position: relative;
+    img{
+        width: 164px;
+    }
+    span{
+        position: absolute;
+        color: #cecfd5;
+        display: block;
+        font-size: .6875rem;
+        margin-top: 2px
+    }
+}
+.selectLocation{
+    height: 50px;
+    background-color: gold;
+    border-radius: 10px;
+    border: 1px solid gray;
+    a{
+        text-decoration: none;
+    }
+    .yourL{
+        font-size: 10px;
     }
 }
