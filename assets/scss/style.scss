@@ -38,13 +38,13 @@
         font-size: 13px;
     }
     .about-us{
-        margin-left: 177px;
+        margin-left: 110px;
         color: rgba(196,198,205,255);
     }
     .icon{
         width: 380px;
         height: 38px;
-        margin-left: 180px;
+        margin-left: 125px;
         padding: 10px;
         display: flex;
     }
@@ -137,13 +137,102 @@
 }
 .selectLocation{
     height: 50px;
-    background-color: gold;
-    border-radius: 10px;
+    background-color: white;
+    border-radius: 5px;
     border: 1px solid gray;
+    position: relative;
+    margin-left: 35px;
+    margin-top: 5px;
+    padding: 2px 32px;
+    width: 175px;
+    position: relative;
+    border-color:#dbdce0 ;
+    box-shadow: -1px 1px 2px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 1px 2px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 1px 2px -1px rgba(0,0,0,0.75);
+    
     a{
         text-decoration: none;
+        padding: 2px;
+        .yourL{
+            font-size: 10px;
+            margin-top: -20px;
+            margin-left: -10px;
+            color: #dbdce0;
+        }
+        .selectL{
+            font-size: 13px;
+            margin-left: -11px;
+            margin-top: -15px;
+            color: #293f97;
+            
+        }
+        i{
+            position: absolute;
+            right: 20px;
+            top:15px;
+            font-size: 12px;
+            color: #293f97;
+
+            
+                
+        }
+        
+    
     }
-    .yourL{
-        font-size: 10px;
+    
+}
+#form{
+    margin-left: 30px;
+    margin-top:7px;
+    input{
+        width: 530px;
+        height: 50px;
+        background-color: #f3f4f7;
+        border:0px solid #f3f4f7;
+        border-radius: 5px;
+        padding: 25px 35px;
+        position: relative;
+    }
+    .fa-magnifying-glass{
+        position: absolute;
+        right: 185px;
+        top: 50px;
+        font-size: 20px;
+        cursor: pointer;
     }
 }
+
+.user{
+    margin-top: 6px;
+    margin-left:15px;
+    padding: 7px 12px;
+    border: 1px solid #dbdce0;
+    border-radius: 50px;
+    i{
+        color: black;
+    }
+}
+
+.price {
+    margin-left: 20px;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.basket{
+    margin-left: 20px;
+    padding: 7px 12px;
+    border-radius: 50px;
+    background-color: #fff1ee;
+    a{
+        text-decoration: none;
+        i{
+            color: #ea2b0f;
+        }
+    }
+}
+
+
