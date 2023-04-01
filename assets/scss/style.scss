@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
 
 * {
     margin: 0;
@@ -227,12 +226,78 @@
     padding: 7px 12px;
     border-radius: 50px;
     background-color: #fff1ee;
+    position: relative;
     a{
         text-decoration: none;
         i{
             color: #ea2b0f;
         }
+        .circle{
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            background-color: #ea2b0f;
+            top: 0px;
+            left: 29px;
+            border-radius: 50px;
+            font-size: 10px;
+            text-align: center;
+            color: white;
+        }
     }
 }
 
+.home{
+    margin-left: 170px;
+    font-size: 15px; 
+    font-family: 'Dosis', sans-serif;  
+    i{
+        margin-left: 10px;
+        font-size: 13px;
+    }
+}
+.shop{
+    margin-left: 20px;
+    font-size: 15px; 
+    font-family: 'Dosis', sans-serif; 
+    i{
+        margin-left: 10px;
+        font-size: 13px;
+    }
+}
+.meat{
+    img{
+        font-size: 15px;
+    }
+}
+
+.allCategories{
+    width: 200px;
+    height: 50px;
+    background-color: #2bbef9;
+    display: flex;
+    position: relative;
+    border-radius: 25px;
+    
+    
+    .fa-bars{
+        margin: 18px 15px;
+        color: white;
+        font-size: 15px;
+    }
+    span{
+        margin: 14px 43px;
+        font-size: 15px;
+        font-family: 'Dosis', sans-serif;    
+        color: white;    
+
+    }
+    .fa-chevron-down{
+        position: absolute;
+        left: 167px;
+        top: 17px;
+        color: white;
+        font-size: 13px;
+    }
+}
 
