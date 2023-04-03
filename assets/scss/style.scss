@@ -349,6 +349,61 @@
         color:  #858997;
     }
 }
+.sliderContent{
+    position: absolute;
+    top: 45px;
+    left: 124px;
+    
+    h1{
+        font-weight: 700;
+        width: 450px;
+        margin-top: 20px;
+        font-size: 50px;
+    }
+    span{
+        font-size: 14px;
+        
+        .off{
+            color: green;
+            font-weight: 500;
+            border-radius: 20px;
+            padding: 5px;
+            background: linear-gradient(90deg, #88cebf 0%, transparent 100%);
+            
+
+        }
+    }
+    p{
+        margin-top: 20px;
+        font-size: 17px;
+        
+    }
+    .from{
+        color: red;
+        font-size: 38px;
+        font-family: 'Dosis', sans-serif;
+    }
+    .thisWeek{
+        font-size: 17px;
+        font-family: 'Dosis', sans-serif;
+    }
+    button{
+        padding: 5px 20px;
+        i{
+            margin-left: 10px;
+        
+        }
+    }
+}
+
+.prevLeft{
+    margin-right: 25px;
+    padding: 17px 17px;
+    background-color: gray;
+    border-radius: 50px;
+
+}
+
 
 
 
