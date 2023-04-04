@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -379,4 +380,121 @@
   padding: 17px 17px;
   background-color: gray;
   border-radius: 50px;
+}
+
+.classifications {
+  margin-top: 40px;
+  border: 1px solid #dbdce0;
+  border-radius: 10px;
+}
+.classifications .bev {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-right: 1px solid #dbdce0;
+  text-align: center;
+}
+.classifications .bev .boxBev img {
+  width: 192px;
+  height: 200px;
+}
+.classifications .bev .contentBev {
+  margin-top: 10px;
+}
+.classifications .bev .contentBev span {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+.classifications .bev .contentBev p {
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  color: gray;
+}
+.classifications .other {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 0px 0px;
+}
+.classifications .bisSn {
+  border-right: 1px solid #dbdce0;
+  border-bottom: 1px solid #dbdce0;
+  position: relative;
+}
+.classifications .bisSn .boxBis img {
+  width: 70px;
+  height: 70px;
+  margin-top: 35px;
+  margin-left: 20px;
+}
+.classifications .bisSn .contentBis {
+  position: absolute;
+  top: 45px;
+  left: 102px;
+}
+.classifications .bisSn .contentBis a {
+  text-decoration: none;
+}
+.classifications .bisSn .contentBis p {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #212529;
+}
+.classifications .bisSn .contentBis #bisItem {
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  color: gray;
+  margin-top: -15px;
+}
+.classifications .frVe {
+  border-right: 1px solid #dbdce0;
+  position: relative;
+}
+.classifications .frVe .boxFrVe img {
+  width: 70px;
+  height: 70px;
+  margin-top: 35px;
+  margin-left: 20px;
+}
+.classifications .frVe .contentFrVe {
+  position: absolute;
+  top: 45px;
+  left: 102px;
+}
+.classifications .frVe .contentFrVe a {
+  text-decoration: none;
+}
+.classifications .frVe .contentFrVe a p {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #212529;
+}
+.classifications .frVe .contentFrVe a #frItems {
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  color: gray;
+  margin-top: -12px;
+}
+.classifications .brBa {
+  border-right: 1px solid #dbdce0;
+  border-bottom: 1px solid #dbdce0;
+}
+.classifications .grSt {
+  border-right: 1px solid #dbdce0;
+}
+.classifications .brDa {
+  border-right: 1px solid #dbdce0;
+  border-bottom: 1px solid #dbdce0;
+}
+.classifications .hoNe {
+  border-right: 1px solid #dbdce0;
+}
+.classifications .frFo {
+  border-bottom: 1px solid #dbdce0;
+  border-top-right-radius: 10px;
+}
+.classifications .meSe {
+  border-bottom-right-radius: 10px;
 }/*# sourceMappingURL=style.css.map */
