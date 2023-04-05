@@ -1450,7 +1450,492 @@
 
 }
 
+.banner{
+    .col-6{
+        padding: 0px 0px;
+        img{
+            width: 550px;
+            border-radius: 8px;
+            height: 250px;
+        }
+        .box1{
+            position: relative;
+            .contentBanner{
+                position: absolute;
+                top: 50px;
+                left: 40px;
+                p{
+                    color: #FF6048;
+                    font-family: "Dosis", sans-serif;
+                    font-size: 14px;
+                }
+                h3{
+                    color: #3e445a;
+                    font-size: 22px;
+                    font-weight: 600;
+                    font-family: "Inter", sans-serif;
+                    margin-top: -5px;
+                }
+                #discount{
+                    color: #3E445A;
+                    font-family: "Inter", sans-serif;
+                    font-size: 12px;
+                }
+                button{
+                    border-radius: 50px;
+                    background-color:#233a95;
+                    width: 110px;
+                    height: 34px;
+                    p{
+                        color: white;
+                        font-family: "Dosis", sans-serif;
+                        font-weight: 100;
+                        margin-bottom: 3px;
+                    }
+                }
+            }
+        }
+        
+    }
+    .box2{
+        position: relative;
+            .contentBanner{
+                position: absolute;
+                top: 50px;
+                left: 40px;
+                p{
+                    color: #FF6048;
+                    font-family: "Dosis", sans-serif;
+                    font-size: 14px;
+                }
+                h3{
+                    color: #3e445a;
+                    font-size: 22px;
+                    font-weight: 600;
+                    font-family: "Inter", sans-serif;
+                    margin-top: -5px;
+                }
+                #discount{
+                    color: #3E445A;
+                    font-family: "Inter", sans-serif;
+                    font-size: 12px;
+                }
+                button{
+                    border-radius: 50px;
+                    background-color:#FF6048;
+                    width: 110px;
+                    height: 34px;
+                    p{
+                        color: white;
+                        font-family: "Dosis", sans-serif;
+                        font-weight: 100;
+                        margin-bottom: 3px;
+                    }
+                }
+            }
+    }
+}
 
+.splide__list{
+    .boom{
+        border-top: 1px solid #dbdce0;
+        border-right: 1px solid #dbdce0;
+        border-bottom: 1px solid #dbdce0;
+        .prImg{
+            position: relative;
+            text-align: center;
+            .prPercent{
+                position: absolute;
+                width: 50px;
+                height: 25px;
+                background-color: #2bbef9;
+                border-radius: 4px;
+                top: 15px;
+                left: 5px;
+                p{
+                    margin-top: 1px;
+                    font-size: 14px;
+                    color: white;
+                    font-family: 'Dosis', sans-serif;
+
+                }
+                
+            }
+            img{
+                width: 200px;
+                margin-top: 15px;
+            }
+        }
+        .contentBoom{
+            a{
+                text-decoration: none;
+                p{
+                    width: 205px;
+                    margin-left: 7px;
+                    color: #212529;
+                    font-family:"Inter", sans-serif;
+                    font-weight: 500;
+                    font-size: 14px;
+                    margin-top: 10px;
+                }
+
+            }
+            #stock{
+                color: #038e42;
+                font-size: .6875rem;
+                margin-left: 9px;
+                font-family: 'Dosis', sans-serif;
+                font-weight: 600;
+            }
+            .rate{
+                margin-left: 9px;
+                margin-top: 10px;
+                i{
+                    color: gold;
+                    font-size: 10px;
+                }
+                .unrateable{
+                    color: #bbc0c8;
+                }
+                span{
+                    font-size: 13px;
+                    color: #212529;
+                    margin-left: 2px;
+                
+
+                }
+            }
+            .priceItalian{
+                margin-top: 11px;
+                span{
+                    margin-top: 10px;
+                    color: #bbc0c8;
+                    font-family: 'Dosis', sans-serif;
+                    font-size: 18px;
+                    margin-left: 7px;
+                }
+                #newPrice{
+                    font-family: 'Dosis', sans-serif;
+                    font-size: 20px;
+                    color: #ed174a;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+    .italian{
+        border: 1px solid #dbdce0;
+        border-top-left-radius: 7px;
+        .prImg{
+            position: relative;
+            text-align: center;
+            .prPercent{
+                position: absolute;
+                width: 50px;
+                height: 25px;
+                background-color: #2bbef9;
+                border-radius: 4px;
+                top: 15px;
+                left: 5px;
+                p{
+                    margin-top: 1px;
+                    font-size: 14px;
+                    color: white;
+                    font-family: 'Dosis', sans-serif;
+
+                }
+            }
+            .recommended{
+                position: absolute;
+                top: 45px;
+                left: 5px;
+                background-color:#71778e;
+                width: 90px;
+                height: 20px;
+                border-radius: 4px;
+                p{
+                    margin-top: 2px;
+                    font-size: 10px;
+                    color: white;
+                    font-family: 'Dosis', sans-serif;
+
+                }
+            }
+            
+            img{
+                width: 200px;
+                margin-top: 15px;
+            }
+        }
+        .contentItalian{
+            a{
+                text-decoration: none;
+                p{
+                    width: 200px;
+                    margin-left: 7px;
+                    color: #212529;
+                    font-family:"Inter", sans-serif;
+                    font-weight: 500;
+                    font-size: 14px;
+                    margin-top: 10px;
+                }
+
+            }
+            #stock{
+                color: #ed174a;
+                font-size: .6875rem;
+                margin-left: 9px;
+                font-family: 'Dosis', sans-serif;
+                font-weight: 600;
+            }
+            #stockin{
+                color: #038e42;
+                font-size: .6875rem;
+                margin-left: 9px;
+                font-family: 'Dosis', sans-serif;
+                font-weight: 600;
+            }
+            .rate{
+                margin-left: 9px;
+                margin-top: 10px;
+                i{
+                    color: gold;
+                    font-size: 10px;
+                }
+                .unrateable{
+                    color: #bbc0c8;
+                }
+                span{
+                    font-size: 13px;
+                    color: #212529;
+                    margin-left: 2px;
+                
+
+                }
+            }
+            .priceItalian{
+                margin-top: 11px;
+                span{
+                    margin-top: 10px;
+                    color: #bbc0c8;
+                    font-family: 'Dosis', sans-serif;
+                    font-size: 18px;
+                    margin-left: 7px;
+                }
+                #newPrice{
+                    font-family: 'Dosis', sans-serif;
+                    font-size: 20px;
+                    color: #ed174a;
+                    margin-left: 5px;
+                }
+            }
+        }
+
+    }
+    .chao{
+        border-top: 1px solid #dbdce0;
+        border-right: 1px solid #dbdce0;
+        border-bottom: 1px solid #dbdce0;
+        border-top-right-radius: 7px;
+        .prImg{
+            position: relative;
+            text-align: center;
+            .prPercent{
+                position: absolute;
+                width: 50px;
+                height: 25px;
+                background-color: #2bbef9;
+                border-radius: 4px;
+                top: 15px;
+                left: 5px;
+                p{
+                    margin-top: 1px;
+                    font-size: 14px;
+                    color: white;
+                    font-family: 'Dosis', sans-serif;
+
+                }
+            }
+            .recommended{
+                position: absolute;
+                top: 45px;
+                left: 5px;
+                background-color:#e5f8ed;
+                width: 70px;
+                height: 22px;
+                border-radius: 15px;
+                text-align: center;
+                p{
+                    margin-top: 3px;
+                    font-size: 12px;
+                    color: #038e42;
+                    font-family: 'Dosis', sans-serif;
+
+                }
+            }
+            img{
+                width: 200px;
+                margin-top: 15px;
+            }
+        }
+        .contentchao{
+            a{
+                text-decoration: none;
+                p{
+                    width: 205px;
+                    margin-left: 7px;
+                    color: #212529;
+                    font-family:"Inter", sans-serif;
+                    font-weight: 500;
+                    font-size: 14px;
+                    margin-top: 10px;
+                }
+
+            }
+            #stock{
+                color: #038e42;
+                font-size: .6875rem;
+                margin-left: 9px;
+                font-family: 'Dosis', sans-serif;
+                font-weight: 600;
+            }
+            .rate{
+                margin-left: 9px;
+                margin-top: 10px;
+                i{
+                    color: gold;
+                    font-size: 10px;
+                }
+            
+                span{
+                    font-size: 13px;
+                    color: #212529;
+                    margin-left: 2px;
+                
+
+                }
+            }
+            .pricechao{
+                margin-top: 11px;
+                span{
+                    margin-top: 10px;
+                    color: #bbc0c8;
+                    font-family: 'Dosis', sans-serif;
+                    font-size: 18px;
+                    margin-left: 7px;
+                }
+                #newPrice{
+                    font-family: 'Dosis', sans-serif;
+                    font-size: 20px;
+                    color: #ed174a;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+    .diamond{
+        border-right: 1px solid #dbdce0;
+        border-bottom: 1px solid #dbdce0;
+        .prImg{
+            position: relative;
+            text-align: center;
+            .prPercent{
+                position: absolute;
+                width: 50px;
+                height: 25px;
+                background-color: #2bbef9;
+                border-radius: 4px;
+                top: 15px;
+                left: 5px;
+                p{
+                    margin-top: 1px;
+                    font-size: 14px;
+                    color: white;
+                    font-family: 'Dosis', sans-serif;
+
+                }
+            }
+            .recommended{
+                position: absolute;
+                top: 45px;
+                left: 5px;
+                background-color:#e5f8ed;
+                width: 70px;
+                height: 22px;
+                border-radius: 15px;
+                text-align: center;
+                p{
+                    margin-top: 3px;
+                    font-size: 12px;
+                    color: #038e42;
+                    font-family: 'Dosis', sans-serif;
+
+                }
+            }
+            img{
+                width: 200px;
+                margin-top: 15px;
+            }
+        }
+        .contentDiamond{
+            a{
+                text-decoration: none;
+                p{
+                    width: 205px;
+                    margin-left: 7px;
+                    color: #212529;
+                    font-family:"Inter", sans-serif;
+                    font-weight: 500;
+                    font-size: 14px;
+                    margin-top: 10px;
+                }
+
+            }
+            #stock{
+                color: #038e42;
+                font-size: .6875rem;
+                margin-left: 9px;
+                font-family: 'Dosis', sans-serif;
+                font-weight: 600;
+            }
+            .rate{
+                margin-left: 9px;
+                margin-top: 10px;
+                i{
+                    color: gold;
+                    font-size: 10px;
+                }
+                .unrateable{
+                    color: #bbc0c8;
+                }
+            
+                span{
+                    font-size: 13px;
+                    color: #212529;
+                    margin-left: 2px;
+                
+
+                }
+            }
+            .priceItalian{
+                margin-top: 11px;
+                span{
+                    margin-top: 10px;
+                    color: #bbc0c8;
+                    font-family: 'Dosis', sans-serif;
+                    font-size: 18px;
+                    margin-left: 7px;
+                }
+                #newPrice{
+                    font-family: 'Dosis', sans-serif;
+                    font-size: 20px;
+                    color: #ed174a;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}
 
 
 
