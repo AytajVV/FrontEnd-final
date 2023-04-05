@@ -396,18 +396,25 @@
 .classifications .bev .boxBev img {
   width: 192px;
   height: 200px;
+  margin-top: 11px;
 }
 .classifications .bev .contentBev {
   margin-top: 10px;
 }
-.classifications .bev .contentBev span {
+.classifications .bev .contentBev a {
+  text-decoration: none;
+}
+.classifications .bev .contentBev a p {
   font-family: "Inter", sans-serif;
   font-weight: 600;
+  color: #212529;
 }
-.classifications .bev .contentBev p {
+.classifications .bev .contentBev a #beveragesItems {
   font-size: 12px;
   font-family: "Inter", sans-serif;
+  font-weight: 300;
   color: gray;
+  margin-top: -12px;
 }
 .classifications .other {
   border-top-right-radius: 10px;
@@ -480,21 +487,830 @@
 .classifications .brBa {
   border-right: 1px solid #dbdce0;
   border-bottom: 1px solid #dbdce0;
+  position: relative;
+}
+.classifications .brBa .boxBrBa a img {
+  width: 70px;
+  height: 70px;
+  margin-top: 35px;
+  margin-left: 20px;
+}
+.classifications .brBa .contentBrBa {
+  position: absolute;
+  top: 45px;
+  left: 102px;
+}
+.classifications .brBa .contentBrBa a {
+  text-decoration: none;
+}
+.classifications .brBa .contentBrBa a p {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #212529;
+}
+.classifications .brBa .contentBrBa a #breadItems {
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  color: gray;
+  margin-top: -12px;
 }
 .classifications .grSt {
   border-right: 1px solid #dbdce0;
+  position: relative;
+}
+.classifications .grSt .boxGrSt a img {
+  width: 70px;
+  height: 70px;
+  margin-top: 35px;
+  margin-left: 20px;
+}
+.classifications .grSt .contentGrSt {
+  position: absolute;
+  top: 45px;
+  left: 102px;
+}
+.classifications .grSt .contentGrSt a {
+  text-decoration: none;
+}
+.classifications .grSt .contentGrSt a p {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #212529;
+}
+.classifications .grSt .contentGrSt a #groceryItems {
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  color: gray;
+  margin-top: -12px;
 }
 .classifications .brDa {
   border-right: 1px solid #dbdce0;
   border-bottom: 1px solid #dbdce0;
+  position: relative;
+}
+.classifications .brDa .boxBrDa a img {
+  width: 70px;
+  height: 70px;
+  margin-top: 35px;
+  margin-left: 20px;
+}
+.classifications .brDa .contentBrDa {
+  position: absolute;
+  top: 45px;
+  left: 102px;
+}
+.classifications .brDa .contentBrDa a {
+  text-decoration: none;
+}
+.classifications .brDa .contentBrDa a p {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #212529;
+}
+.classifications .brDa .contentBrDa a #breakItems {
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  color: gray;
+  margin-top: -12px;
 }
 .classifications .hoNe {
   border-right: 1px solid #dbdce0;
+  position: relative;
+}
+.classifications .hoNe .boxHoNe a img {
+  width: 70px;
+  height: 70px;
+  margin-top: 35px;
+  margin-left: 20px;
+}
+.classifications .hoNe .contentHoNe {
+  position: absolute;
+  top: 45px;
+  left: 102px;
+}
+.classifications .hoNe .contentHoNe a {
+  text-decoration: none;
+}
+.classifications .hoNe .contentHoNe a p {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #212529;
+}
+.classifications .hoNe .contentHoNe a #houseItems {
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  color: gray;
+  margin-top: -12px;
 }
 .classifications .frFo {
   border-bottom: 1px solid #dbdce0;
   border-top-right-radius: 10px;
+  position: relative;
+}
+.classifications .frFo .boxFrFo a img {
+  width: 70px;
+  height: 70px;
+  margin-top: 35px;
+  margin-left: 20px;
+}
+.classifications .frFo .contentFrFo {
+  position: absolute;
+  top: 45px;
+  left: 102px;
+}
+.classifications .frFo .contentFrFo a {
+  text-decoration: none;
+}
+.classifications .frFo .contentFrFo a p {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #212529;
+}
+.classifications .frFo .contentFrFo a #frozenItems {
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  color: gray;
+  margin-top: -12px;
 }
 .classifications .meSe {
   border-bottom-right-radius: 10px;
+  position: relative;
+}
+.classifications .meSe .boxMeSe a img {
+  width: 70px;
+  height: 70px;
+  margin-top: 35px;
+  margin-left: 20px;
+}
+.classifications .meSe .contentMeSe {
+  position: absolute;
+  top: 45px;
+  left: 102px;
+}
+.classifications .meSe .contentMeSe a {
+  text-decoration: none;
+}
+.classifications .meSe .contentMeSe a p {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #212529;
+}
+.classifications .meSe .contentMeSe a #meatItems {
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  color: gray;
+  margin-top: -12px;
+}
+
+.deals {
+  margin-top: 40px;
+}
+.deals .mainDeal {
+  border: 2px solid #ed174a;
+  border-radius: 8px;
+}
+.deals .mainDeal .titleDeals {
+  margin-top: 30px;
+  margin-left: 15px;
+}
+.deals .mainDeal .titleDeals p {
+  margin-left: 7px;
+  color: #233a95;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+}
+.deals .mainDeal .titleDeals #remains {
+  margin-top: 13px;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  color: gray;
+}
+.deals .mainDeal .titleDeals .redboxes {
+  display: flex;
+  margin-top: -7px;
+}
+.deals .mainDeal .titleDeals .redboxes .box {
+  width: 50px;
+  height: 50px;
+  background-color: #ed174a;
+  margin-left: 7px;
+  border-radius: 8px;
+}
+.deals .mainDeal .titleDeals .redboxes p {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.deals .mainDeal .dealImg {
+  position: relative;
+}
+.deals .mainDeal .dealImg .percent {
+  background-color: #ed174a;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  position: absolute;
+  left: 15px;
+  top: 6px;
+  text-align: center;
+}
+.deals .mainDeal .dealImg .percent p {
+  font-family: "Dosis", sans-serif;
+  color: white;
+  font-size: 25px;
+  margin-top: 17px;
+}
+.deals .mainDeal .dealImg img {
+  width: 350px;
+}
+.deals .mainDeal .contentDeal span {
+  color: #bbc0c8;
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+  margin-left: 25px;
+}
+.deals .mainDeal .contentDeal #newPrice {
+  font-family: "Dosis", sans-serif;
+  font-size: 25px;
+  color: #ed174a;
+  margin-left: 5px;
+}
+.deals .mainDeal .contentDeal a {
+  text-decoration: none;
+}
+.deals .mainDeal .contentDeal a p {
+  margin-left: 25px;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  color: #202435;
+  font-weight: 500;
+  margin-top: 15px;
+}
+.deals .mainDeal .contentDeal .kg {
+  font-size: 0.6875rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.deals .mainDeal .contentDeal .instock {
+  color: #038e42;
+  font-size: 0.6875rem;
+  margin-left: 4px;
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+}
+.deals .mainDeal .contentDeal .rate {
+  margin-left: 24px;
+  margin-top: 10px;
+}
+.deals .mainDeal .contentDeal .rate i {
+  color: gold;
+  font-size: 10px;
+}
+.deals .mainDeal .contentDeal .rate span {
+  font-size: 13px;
+  color: #212529;
+  margin-left: 2px;
+}
+.deals .mainDeal .contentDeal .available {
+  text-align: end;
+  margin-right: 15px;
+}
+.deals .mainDeal .contentDeal .available p {
+  font-size: 11px;
+  font-family: "Dosis", sans-serif;
+  color: #bbc0c8;
+}
+.deals .mainDeal .contentDeal .available p span {
+  color: #212529;
+  margin-left: 4px;
+  font-size: 1rem;
+}
+.deals .mainDeal .contentDeal .available .gradientDiv {
+  width: 313px;
+  height: 10px;
+  display: flex;
+}
+.deals .mainDeal .contentDeal .available .gradientDiv .col-11 {
+  border-radius: 10px;
+  height: 10px;
+  background: linear-gradient(109.7deg, rgb(202, 50, 50) 5.7%, rgb(252, 195, 12) 92.4%);
+}
+.deals .mainDeal .contentDeal .available .gradientDiv .col-12 {
+  height: 10px;
+  background-color: #dbdce0;
+  border-radius: 10px;
+  margin-left: 24px;
+  margin-right: 10px;
+}
+.deals .col-8 {
+  width: 730px;
+  margin-left: 28px;
+  padding: 0px 0px;
+}
+.deals .col-8 .col-12 {
+  padding: 0px 11px;
+  margin-left: 0px;
+}
+.deals .col-8 .col-12 .col-4 .italian {
+  border: 1px solid #dbdce0;
+  border-top-left-radius: 7px;
+}
+.deals .col-8 .col-12 .col-4 .italian .prImg {
+  position: relative;
+  text-align: center;
+}
+.deals .col-8 .col-12 .col-4 .italian .prImg .prPercent {
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  background-color: #2bbef9;
+  border-radius: 4px;
+  top: 15px;
+  left: 5px;
+}
+.deals .col-8 .col-12 .col-4 .italian .prImg .prPercent p {
+  margin-top: 1px;
+  font-size: 14px;
+  color: white;
+  font-family: "Dosis", sans-serif;
+}
+.deals .col-8 .col-12 .col-4 .italian .prImg .recommended {
+  position: absolute;
+  top: 45px;
+  left: 5px;
+  background-color: #71778e;
+  width: 90px;
+  height: 20px;
+  border-radius: 4px;
+}
+.deals .col-8 .col-12 .col-4 .italian .prImg .recommended p {
+  margin-top: 2px;
+  font-size: 10px;
+  color: white;
+  font-family: "Dosis", sans-serif;
+}
+.deals .col-8 .col-12 .col-4 .italian .prImg img {
+  width: 200px;
+  margin-top: 15px;
+}
+.deals .col-8 .col-12 .col-4 .italian .contentItalian a {
+  text-decoration: none;
+}
+.deals .col-8 .col-12 .col-4 .italian .contentItalian a p {
+  width: 200px;
+  margin-left: 7px;
+  color: #212529;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.deals .col-8 .col-12 .col-4 .italian .contentItalian #stock {
+  color: #ed174a;
+  font-size: 0.6875rem;
+  margin-left: 9px;
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+}
+.deals .col-8 .col-12 .col-4 .italian .contentItalian .rate {
+  margin-left: 9px;
+  margin-top: 10px;
+}
+.deals .col-8 .col-12 .col-4 .italian .contentItalian .rate i {
+  color: gold;
+  font-size: 10px;
+}
+.deals .col-8 .col-12 .col-4 .italian .contentItalian .rate .unrateable {
+  color: #bbc0c8;
+}
+.deals .col-8 .col-12 .col-4 .italian .contentItalian .rate span {
+  font-size: 13px;
+  color: #212529;
+  margin-left: 2px;
+}
+.deals .col-8 .col-12 .col-4 .italian .contentItalian .priceItalian {
+  margin-top: 11px;
+}
+.deals .col-8 .col-12 .col-4 .italian .contentItalian .priceItalian span {
+  margin-top: 10px;
+  color: #bbc0c8;
+  font-family: "Dosis", sans-serif;
+  font-size: 18px;
+  margin-left: 7px;
+}
+.deals .col-8 .col-12 .col-4 .italian .contentItalian .priceItalian #newPrice {
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+  color: #ed174a;
+  margin-left: 5px;
+}
+.deals .col-8 .col-12 .col-4 .crispy {
+  border-left: 1px solid #dbdce0;
+  border-bottom: 1px solid #dbdce0;
+  border-right: 1px solid #dbdce0;
+  border-bottom-left-radius: 7px;
+}
+.deals .col-8 .col-12 .col-4 .crispy .prImg img {
+  width: 200px;
+  margin-top: 15px;
+}
+.deals .col-8 .col-12 .col-4 .crispy .contentCrispy a {
+  text-decoration: none;
+}
+.deals .col-8 .col-12 .col-4 .crispy .contentCrispy a p {
+  width: 200px;
+  margin-left: 7px;
+  color: #212529;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.deals .col-8 .col-12 .col-4 .crispy .contentCrispy #stock {
+  color: #038e42;
+  font-size: 0.6875rem;
+  margin-left: 9px;
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+}
+.deals .col-8 .col-12 .col-4 .crispy .contentCrispy .rate {
+  margin-left: 9px;
+  margin-top: 10px;
+}
+.deals .col-8 .col-12 .col-4 .crispy .contentCrispy .rate i {
+  color: gold;
+  font-size: 10px;
+}
+.deals .col-8 .col-12 .col-4 .crispy .contentCrispy .rate .unrateable {
+  color: #bbc0c8;
+}
+.deals .col-8 .col-12 .col-4 .crispy .contentCrispy .rate span {
+  font-size: 13px;
+  color: #212529;
+  margin-left: 2px;
+}
+.deals .col-8 .col-12 .col-4 .crispy .contentCrispy .priceItalian {
+  margin-top: 11px;
+}
+.deals .col-8 .col-12 .col-4 .crispy .contentCrispy .priceItalian #newPrice {
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+  color: #ed174a;
+  margin-left: 5px;
+}
+.deals .col-8 .col-12 .col-4 .crispy .contentCrispy .priceItalian #newPrice span {
+  font-family: "Dosis", sans-serif;
+  color: #212529;
+}
+.deals .col-8 .col-12 .col-4 .boom {
+  border-top: 1px solid #dbdce0;
+  border-right: 1px solid #dbdce0;
+  border-bottom: 1px solid #dbdce0;
+}
+.deals .col-8 .col-12 .col-4 .boom .prImg {
+  position: relative;
+  text-align: center;
+}
+.deals .col-8 .col-12 .col-4 .boom .prImg .prPercent {
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  background-color: #2bbef9;
+  border-radius: 4px;
+  top: 15px;
+  left: 5px;
+}
+.deals .col-8 .col-12 .col-4 .boom .prImg .prPercent p {
+  margin-top: 1px;
+  font-size: 14px;
+  color: white;
+  font-family: "Dosis", sans-serif;
+}
+.deals .col-8 .col-12 .col-4 .boom .prImg img {
+  width: 200px;
+  margin-top: 15px;
+}
+.deals .col-8 .col-12 .col-4 .boom .contentBoom a {
+  text-decoration: none;
+}
+.deals .col-8 .col-12 .col-4 .boom .contentBoom a p {
+  width: 205px;
+  margin-left: 7px;
+  color: #212529;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.deals .col-8 .col-12 .col-4 .boom .contentBoom #stock {
+  color: #038e42;
+  font-size: 0.6875rem;
+  margin-left: 9px;
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+}
+.deals .col-8 .col-12 .col-4 .boom .contentBoom .rate {
+  margin-left: 9px;
+  margin-top: 10px;
+}
+.deals .col-8 .col-12 .col-4 .boom .contentBoom .rate i {
+  color: gold;
+  font-size: 10px;
+}
+.deals .col-8 .col-12 .col-4 .boom .contentBoom .rate .unrateable {
+  color: #bbc0c8;
+}
+.deals .col-8 .col-12 .col-4 .boom .contentBoom .rate span {
+  font-size: 13px;
+  color: #212529;
+  margin-left: 2px;
+}
+.deals .col-8 .col-12 .col-4 .boom .contentBoom .priceItalian {
+  margin-top: 11px;
+}
+.deals .col-8 .col-12 .col-4 .boom .contentBoom .priceItalian span {
+  margin-top: 10px;
+  color: #bbc0c8;
+  font-family: "Dosis", sans-serif;
+  font-size: 18px;
+  margin-left: 7px;
+}
+.deals .col-8 .col-12 .col-4 .boom .contentBoom .priceItalian #newPrice {
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+  color: #ed174a;
+  margin-left: 5px;
+}
+.deals .col-8 .col-12 .col-4 .diamond {
+  border-right: 1px solid #dbdce0;
+  border-bottom: 1px solid #dbdce0;
+}
+.deals .col-8 .col-12 .col-4 .diamond .prImg {
+  position: relative;
+  text-align: center;
+}
+.deals .col-8 .col-12 .col-4 .diamond .prImg .prPercent {
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  background-color: #2bbef9;
+  border-radius: 4px;
+  top: 15px;
+  left: 5px;
+}
+.deals .col-8 .col-12 .col-4 .diamond .prImg .prPercent p {
+  margin-top: 1px;
+  font-size: 14px;
+  color: white;
+  font-family: "Dosis", sans-serif;
+}
+.deals .col-8 .col-12 .col-4 .diamond .prImg .recommended {
+  position: absolute;
+  top: 45px;
+  left: 5px;
+  background-color: #e5f8ed;
+  width: 70px;
+  height: 22px;
+  border-radius: 15px;
+  text-align: center;
+}
+.deals .col-8 .col-12 .col-4 .diamond .prImg .recommended p {
+  margin-top: 3px;
+  font-size: 12px;
+  color: #038e42;
+  font-family: "Dosis", sans-serif;
+}
+.deals .col-8 .col-12 .col-4 .diamond .prImg img {
+  width: 200px;
+  margin-top: 15px;
+}
+.deals .col-8 .col-12 .col-4 .diamond .contentDiamond a {
+  text-decoration: none;
+}
+.deals .col-8 .col-12 .col-4 .diamond .contentDiamond a p {
+  width: 205px;
+  margin-left: 7px;
+  color: #212529;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.deals .col-8 .col-12 .col-4 .diamond .contentDiamond #stock {
+  color: #038e42;
+  font-size: 0.6875rem;
+  margin-left: 9px;
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+}
+.deals .col-8 .col-12 .col-4 .diamond .contentDiamond .rate {
+  margin-left: 9px;
+  margin-top: 10px;
+}
+.deals .col-8 .col-12 .col-4 .diamond .contentDiamond .rate i {
+  color: gold;
+  font-size: 10px;
+}
+.deals .col-8 .col-12 .col-4 .diamond .contentDiamond .rate span {
+  font-size: 13px;
+  color: #212529;
+  margin-left: 2px;
+}
+.deals .col-8 .col-12 .col-4 .diamond .contentDiamond .priceItalian {
+  margin-top: 11px;
+}
+.deals .col-8 .col-12 .col-4 .diamond .contentDiamond .priceItalian span {
+  margin-top: 10px;
+  color: #bbc0c8;
+  font-family: "Dosis", sans-serif;
+  font-size: 18px;
+  margin-left: 7px;
+}
+.deals .col-8 .col-12 .col-4 .diamond .contentDiamond .priceItalian #newPrice {
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+  color: #ed174a;
+  margin-left: 5px;
+}
+.deals .col-8 .col-12 .col-4 .chao {
+  border-top: 1px solid #dbdce0;
+  border-right: 1px solid #dbdce0;
+  border-bottom: 1px solid #dbdce0;
+  border-top-right-radius: 7px;
+}
+.deals .col-8 .col-12 .col-4 .chao .prImg {
+  position: relative;
+  text-align: center;
+}
+.deals .col-8 .col-12 .col-4 .chao .prImg .prPercent {
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  background-color: #2bbef9;
+  border-radius: 4px;
+  top: 15px;
+  left: 5px;
+}
+.deals .col-8 .col-12 .col-4 .chao .prImg .prPercent p {
+  margin-top: 1px;
+  font-size: 14px;
+  color: white;
+  font-family: "Dosis", sans-serif;
+}
+.deals .col-8 .col-12 .col-4 .chao .prImg .recommended {
+  position: absolute;
+  top: 45px;
+  left: 5px;
+  background-color: #e5f8ed;
+  width: 70px;
+  height: 22px;
+  border-radius: 15px;
+  text-align: center;
+}
+.deals .col-8 .col-12 .col-4 .chao .prImg .recommended p {
+  margin-top: 3px;
+  font-size: 12px;
+  color: #038e42;
+  font-family: "Dosis", sans-serif;
+}
+.deals .col-8 .col-12 .col-4 .chao .prImg img {
+  width: 200px;
+  margin-top: 15px;
+}
+.deals .col-8 .col-12 .col-4 .chao .contentchao a {
+  text-decoration: none;
+}
+.deals .col-8 .col-12 .col-4 .chao .contentchao a p {
+  width: 205px;
+  margin-left: 7px;
+  color: #212529;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.deals .col-8 .col-12 .col-4 .chao .contentchao #stock {
+  color: #038e42;
+  font-size: 0.6875rem;
+  margin-left: 9px;
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+}
+.deals .col-8 .col-12 .col-4 .chao .contentchao .rate {
+  margin-left: 9px;
+  margin-top: 10px;
+}
+.deals .col-8 .col-12 .col-4 .chao .contentchao .rate i {
+  color: gold;
+  font-size: 10px;
+}
+.deals .col-8 .col-12 .col-4 .chao .contentchao .rate span {
+  font-size: 13px;
+  color: #212529;
+  margin-left: 2px;
+}
+.deals .col-8 .col-12 .col-4 .chao .contentchao .pricechao {
+  margin-top: 11px;
+}
+.deals .col-8 .col-12 .col-4 .chao .contentchao .pricechao span {
+  margin-top: 10px;
+  color: #bbc0c8;
+  font-family: "Dosis", sans-serif;
+  font-size: 18px;
+  margin-left: 7px;
+}
+.deals .col-8 .col-12 .col-4 .chao .contentchao .pricechao #newPrice {
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+  color: #ed174a;
+  margin-left: 5px;
+}
+.deals .col-8 .col-12 .col-4 .blueberries {
+  border-right: 1px solid #dbdce0;
+  border-bottom: 1px solid #dbdce0;
+  border-bottom-right-radius: 7px;
+}
+.deals .col-8 .col-12 .col-4 .blueberries .prImg {
+  position: relative;
+  text-align: center;
+}
+.deals .col-8 .col-12 .col-4 .blueberries .prImg .prPercent {
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  background-color: #2bbef9;
+  border-radius: 4px;
+  top: 15px;
+  left: 5px;
+}
+.deals .col-8 .col-12 .col-4 .blueberries .prImg .prPercent p {
+  margin-top: 1px;
+  font-size: 14px;
+  color: white;
+  font-family: "Dosis", sans-serif;
+}
+.deals .col-8 .col-12 .col-4 .blueberries .prImg img {
+  width: 200px;
+  margin-top: 15px;
+}
+.deals .col-8 .col-12 .col-4 .blueberries .contentberries a {
+  text-decoration: none;
+}
+.deals .col-8 .col-12 .col-4 .blueberries .contentberries a p {
+  width: 205px;
+  margin-left: 7px;
+  color: #212529;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.deals .col-8 .col-12 .col-4 .blueberries .contentberries #stock {
+  color: #038e42;
+  font-size: 0.6875rem;
+  margin-left: 9px;
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+}
+.deals .col-8 .col-12 .col-4 .blueberries .contentberries .rate {
+  margin-left: 9px;
+  margin-top: 10px;
+}
+.deals .col-8 .col-12 .col-4 .blueberries .contentberries .rate i {
+  color: gold;
+  font-size: 10px;
+}
+.deals .col-8 .col-12 .col-4 .blueberries .contentberries .rate .unrateable {
+  color: #bbc0c8;
+}
+.deals .col-8 .col-12 .col-4 .blueberries .contentberries .rate span {
+  font-size: 13px;
+  color: #212529;
+  margin-left: 2px;
+}
+.deals .col-8 .col-12 .col-4 .blueberries .contentberries .pricechao {
+  margin-top: 11px;
+}
+.deals .col-8 .col-12 .col-4 .blueberries .contentberries .pricechao span {
+  margin-top: 10px;
+  color: #bbc0c8;
+  font-family: "Dosis", sans-serif;
+  font-size: 18px;
+  margin-left: 7px;
+}
+.deals .col-8 .col-12 .col-4 .blueberries .contentberries .pricechao #newPrice {
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+  color: #ed174a;
+  margin-left: 5px;
 }/*# sourceMappingURL=style.css.map */

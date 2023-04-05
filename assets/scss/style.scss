@@ -418,19 +418,26 @@
             img{
                 width: 192px;
                 height: 200px;
+                margin-top: 11px;
             }
             
         }
         .contentBev{
             margin-top: 10px;
-            span{
-                font-family: 'Inter', sans-serif;
-                font-weight: 600;
-            }
-            p{
-                font-size: 12px;
-                font-family: 'Inter', sans-serif;
-                color:gray
+            a{
+                text-decoration: none;
+                p{
+                    font-family: 'Inter', sans-serif;
+                    font-weight: 600;
+                    color: #212529;
+                }
+                #beveragesItems{
+                    font-size: 12px;
+                    font-family: 'Inter', sans-serif;
+                    font-weight: 300;
+                    color:gray;
+                    margin-top: -12px;
+                }
             }
         }
     }
@@ -513,25 +520,934 @@
     }
     .brBa{
         border-right: 1px solid #dbdce0;
-        border-bottom:1px solid #dbdce0
+        border-bottom:1px solid #dbdce0;
+        position: relative;
+        .boxBrBa{
+            a{
+                img{
+                    width: 70px;
+                    height: 70px;
+                    margin-top: 35px;
+                    margin-left: 20px;
+                }
+            }
+        }
+        .contentBrBa{
+            position: absolute;
+            top: 45px;
+            left: 102px;
+            a{
+                text-decoration: none;
+                p{
+                    font-family: 'Inter', sans-serif;
+                    font-weight: 600;
+                    font-size: 14px;
+                    color: #212529;
+                
+                }
+                #breadItems{
+                    font-size: 12px;
+                    font-family: 'Inter', sans-serif;
+                    font-weight: 300;
+                    color:gray;
+                    margin-top: -12px;
+                }
+
+            }
+        }
     }
     .grSt{
         border-right: 1px solid #dbdce0;
+        position: relative;
+        .boxGrSt{
+            a{
+                img{
+                    width: 70px;
+                    height: 70px;
+                    margin-top: 35px;
+                    margin-left: 20px;
+                }
+            }
+        }
+        .contentGrSt{
+            position: absolute;
+            top: 45px;
+            left: 102px;
+            a{
+                text-decoration: none;
+                p{
+                    font-family: 'Inter', sans-serif;
+                    font-weight: 600;
+                    font-size: 14px;
+                    color: #212529;
+                
+                }
+                #groceryItems{
+                    font-size: 12px;
+                    font-family: 'Inter', sans-serif;
+                    font-weight: 300;
+                    color:gray;
+                    margin-top: -12px;
+                }
+
+            }
+        }
+
     }
     .brDa{
         border-right: 1px solid #dbdce0;
         border-bottom:1px solid #dbdce0;
+        position: relative;
+        .boxBrDa{
+            a{
+                img{
+                    width: 70px;
+                    height: 70px;
+                    margin-top: 35px;
+                    margin-left: 20px;
+                }
+            }
+        }
+        .contentBrDa{
+            position: absolute;
+            top: 45px;
+            left: 102px;
+            a{
+                text-decoration: none;
+                p{
+                    font-family: 'Inter', sans-serif;
+                    font-weight: 600;
+                    font-size: 14px;
+                    color: #212529;
+                
+                }
+                #breakItems{
+                    font-size: 12px;
+                    font-family: 'Inter', sans-serif;
+                    font-weight: 300;
+                    color:gray;
+                    margin-top: -12px;
+                }
+
+            }
+        }
     }
     .hoNe{
         border-right: 1px solid #dbdce0;
+        position: relative;
+        .boxHoNe{
+            a{
+                img{
+                    width: 70px;
+                    height: 70px;
+                    margin-top: 35px;
+                    margin-left: 20px;
+                }
+            }
+        }
+        .contentHoNe{
+            position: absolute;
+            top: 45px;
+            left: 102px;
+            a{
+                text-decoration: none;
+                p{
+                    font-family: 'Inter', sans-serif;
+                    font-weight: 600;
+                    font-size: 14px;
+                    color: #212529;
+                
+                }
+                #houseItems{
+                    font-size: 12px;
+                    font-family: 'Inter', sans-serif;
+                    font-weight: 300;
+                    color:gray;
+                    margin-top: -12px;
+                }
+
+            }
+        }
     }
     .frFo{
         border-bottom: 1px solid #dbdce0;
         border-top-right-radius: 10px;
+        position: relative;
+        .boxFrFo{
+            a{
+                img{
+                    width: 70px;
+                    height: 70px;
+                    margin-top: 35px;
+                    margin-left: 20px;
+                }
+            }
+        }
+        .contentFrFo{
+            position: absolute;
+            top: 45px;
+            left: 102px;
+            a{
+                text-decoration: none;
+                p{
+                    font-family: 'Inter', sans-serif;
+                    font-weight: 600;
+                    font-size: 14px;
+                    color: #212529;
+                
+                }
+                #frozenItems{
+                    font-size: 12px;
+                    font-family: 'Inter', sans-serif;
+                    font-weight: 300;
+                    color:gray;
+                    margin-top: -12px;
+                }
+
+            }
+        }
     }
     .meSe{
         border-bottom-right-radius: 10px;
+        position: relative;
+        .boxMeSe{
+            a{
+                img{
+                    width: 70px;
+                    height: 70px;
+                    margin-top: 35px;
+                    margin-left: 20px;
+                }
+            }
+        }
+        .contentMeSe{
+            position: absolute;
+            top: 45px;
+            left: 102px;
+            a{
+                text-decoration: none;
+                p{
+                    font-family: 'Inter', sans-serif;
+                    font-weight: 600;
+                    font-size: 14px;
+                    color: #212529;
+                
+                }
+                #meatItems{
+                    font-size: 12px;
+                    font-family: 'Inter', sans-serif;
+                    font-weight: 300;
+                    color:gray;
+                    margin-top: -12px;
+                }
+
+            }
+        }
     }
+}
+
+.deals{
+    margin-top:40px;
+    .mainDeal{
+        border: 2px solid #ed174a;
+        border-radius: 8px;
+        .titleDeals{
+            margin-top: 30px;
+            margin-left: 15px;
+            p{
+                margin-left: 7px;
+                color: #233a95;
+                font-size: 20px;
+                font-family: 'Inter', sans-serif;
+            }
+            #remains{
+                margin-top: 13px;
+                font-family: 'Inter', sans-serif;
+                font-size: 12px;
+                color: gray;
+            }
+            .redboxes{
+                display: flex;
+                margin-top: -7px;
+                
+
+                .box{
+                    width: 50px;
+                    height: 50px;
+                    background-color: #ed174a;
+                    margin-left: 7px;
+                    border-radius: 8px;
+                }
+                p{
+                    margin-top: 10px;
+                    margin-left: 5px;
+                }
+            }
+        }
+        .dealImg{
+            position: relative;
+            .percent{
+                background-color: #ed174a;
+                width: 70px;
+                height: 70px;
+                border-radius: 50px;
+                position: absolute;
+                left: 15px;
+                top: 6px;
+                text-align: center;
+                p{
+                    font-family: 'Dosis', sans-serif;
+                    color: white;
+                    font-size: 25px;
+                    margin-top: 17px;
+                }
+            }
+            img{
+                width: 350px;
+            }
+        }
+        .contentDeal{
+            span{
+                color: #bbc0c8;
+                font-family: 'Dosis', sans-serif;
+                font-size: 20px;
+                margin-left: 25px;
+            }
+            #newPrice{
+                font-family: 'Dosis', sans-serif;
+                font-size: 25px;
+                color: #ed174a;
+                margin-left: 5px;
+            }
+            a{
+                text-decoration: none;
+                p{
+                    margin-left: 25px;
+                    font-size: 18px;
+                    font-family: 'Inter', sans-serif;
+                    color: #202435;
+                    font-weight: 500;
+                    margin-top: 15px;
+
+                }
+            }
+            .kg{
+                font-size: .6875rem;
+                font-family:Arial, Helvetica, sans-serif
+                
+            }
+            .instock{
+                color: #038e42;
+                font-size: .6875rem;
+                margin-left: 4px;
+                font-family: 'Dosis', sans-serif;
+                font-weight: 600;
+                
+            }
+            .rate{
+                margin-left: 24px;
+                margin-top: 10px;
+                i{
+                    color: gold;
+                    font-size: 10px;
+                }
+                span{
+                    font-size: 13px;
+                    color: #212529;
+                    margin-left: 2px;
+                
+
+                }
+            }
+            .available{
+                text-align: end;
+                margin-right: 15px;
+                p{
+                    font-size: 11px;
+                    font-family: 'Dosis', sans-serif;
+                    color: #bbc0c8;
+                    
+                    span{
+                        color: #212529;
+                        margin-left: 4px;
+                        font-size: 1rem;
+                    }
+
+                }
+                .gradientDiv{
+                    width: 313px;
+                    height: 10px;
+                    display: flex;
+                    .col-11{
+                       border-radius: 10px;
+                        height: 10px;
+                        background: linear-gradient(109.7deg, rgb(202, 50, 50) 5.7%, rgb(252, 195, 12) 92.4%);
+                    }
+                    .col-12{
+                        height: 10px;
+                        background-color: #dbdce0;
+                        border-radius: 10px;
+                        margin-left: 24px;
+                        margin-right: 10px;
+                    }
+                    
+                    
+                }
+            }
+        }
+    }
+    .col-8{
+        width: 730px;
+        margin-left: 28px;
+        padding: 0px 0px;
+        .col-12{
+            padding: 0px 11px;
+            margin-left: 0px;
+            .col-4{
+                .italian{
+                    border: 1px solid #dbdce0;
+                    border-top-left-radius: 7px;
+                    .prImg{
+                        position: relative;
+                        text-align: center;
+                        .prPercent{
+                            position: absolute;
+                            width: 50px;
+                            height: 25px;
+                            background-color: #2bbef9;
+                            border-radius: 4px;
+                            top: 15px;
+                            left: 5px;
+                            p{
+                                margin-top: 1px;
+                                font-size: 14px;
+                                color: white;
+                                font-family: 'Dosis', sans-serif;
+
+                            }
+                        }
+                        .recommended{
+                            position: absolute;
+                            top: 45px;
+                            left: 5px;
+                            background-color:#71778e;
+                            width: 90px;
+                            height: 20px;
+                            border-radius: 4px;
+                            p{
+                                margin-top: 2px;
+                                font-size: 10px;
+                                color: white;
+                                font-family: 'Dosis', sans-serif;
+
+                            }
+                        }
+                        img{
+                            width: 200px;
+                            margin-top: 15px;
+                        }
+                    }
+                    .contentItalian{
+                        a{
+                            text-decoration: none;
+                            p{
+                                width: 200px;
+                                margin-left: 7px;
+                                color: #212529;
+                                font-family:"Inter", sans-serif;
+                                font-weight: 500;
+                                font-size: 14px;
+                                margin-top: 10px;
+                            }
+    
+                        }
+                        #stock{
+                            color: #ed174a;
+                            font-size: .6875rem;
+                            margin-left: 9px;
+                            font-family: 'Dosis', sans-serif;
+                            font-weight: 600;
+                        }
+                        .rate{
+                            margin-left: 9px;
+                            margin-top: 10px;
+                            i{
+                                color: gold;
+                                font-size: 10px;
+                            }
+                            .unrateable{
+                                color: #bbc0c8;
+                            }
+                            span{
+                                font-size: 13px;
+                                color: #212529;
+                                margin-left: 2px;
+                            
+            
+                            }
+                        }
+                        .priceItalian{
+                            margin-top: 11px;
+                            span{
+                                margin-top: 10px;
+                                color: #bbc0c8;
+                                font-family: 'Dosis', sans-serif;
+                                font-size: 18px;
+                                margin-left: 7px;
+                            }
+                            #newPrice{
+                                font-family: 'Dosis', sans-serif;
+                                font-size: 20px;
+                                color: #ed174a;
+                                margin-left: 5px;
+                            }
+                        }
+                    }
+
+                }
+                .crispy{
+                    border-left: 1px solid #dbdce0;
+                    border-bottom: 1px solid #dbdce0;
+                    border-right: 1px solid #dbdce0;
+                    border-bottom-left-radius: 7px;
+                    .prImg{
+                        img{
+                            width: 200px;
+                            margin-top: 15px;
+                        }
+                    }
+                    .contentCrispy{
+                        a{
+                            text-decoration: none;
+                            p{
+                                width: 200px;
+                                margin-left: 7px;
+                                color: #212529;
+                                font-family:"Inter", sans-serif;
+                                font-weight: 500;
+                                font-size: 14px;
+                                margin-top: 10px;
+                            }
+    
+                        }
+                        #stock{
+                            color: #038e42;
+                            font-size: .6875rem;
+                            margin-left: 9px;
+                            font-family: 'Dosis', sans-serif;
+                            font-weight: 600;
+                        }
+                        .rate{
+                            margin-left: 9px;
+                            margin-top: 10px;
+                            i{
+                                color: gold;
+                                font-size: 10px;
+                            }
+                            .unrateable{
+                                color: #bbc0c8;
+                            }
+                            span{
+                                font-size: 13px;
+                                color: #212529;
+                                margin-left: 2px;
+                            
+            
+                            }
+                        }
+                        .priceItalian{
+                            margin-top: 11px;
+                            
+                
+                            #newPrice{
+                                font-family: 'Dosis', sans-serif;
+                                font-size: 20px;
+                                color: #ed174a;
+                                margin-left: 5px;
+                                span{
+                                    font-family: 'Dosis', sans-serif;
+                                    color: #212529;
+                                }
+                            }
+                        }
+                    }
+                }
+                .boom{
+                    border-top: 1px solid #dbdce0;
+                    border-right: 1px solid #dbdce0;
+                    border-bottom: 1px solid #dbdce0;
+                    .prImg{
+                        position: relative;
+                        text-align: center;
+                        .prPercent{
+                            position: absolute;
+                            width: 50px;
+                            height: 25px;
+                            background-color: #2bbef9;
+                            border-radius: 4px;
+                            top: 15px;
+                            left: 5px;
+                            p{
+                                margin-top: 1px;
+                                font-size: 14px;
+                                color: white;
+                                font-family: 'Dosis', sans-serif;
+
+                            }
+                            
+                        }
+                        img{
+                            width: 200px;
+                            margin-top: 15px;
+                        }
+                    }
+                    .contentBoom{
+                        a{
+                            text-decoration: none;
+                            p{
+                                width: 205px;
+                                margin-left: 7px;
+                                color: #212529;
+                                font-family:"Inter", sans-serif;
+                                font-weight: 500;
+                                font-size: 14px;
+                                margin-top: 10px;
+                            }
+    
+                        }
+                        #stock{
+                            color: #038e42;
+                            font-size: .6875rem;
+                            margin-left: 9px;
+                            font-family: 'Dosis', sans-serif;
+                            font-weight: 600;
+                        }
+                        .rate{
+                            margin-left: 9px;
+                            margin-top: 10px;
+                            i{
+                                color: gold;
+                                font-size: 10px;
+                            }
+                            .unrateable{
+                                color: #bbc0c8;
+                            }
+                            span{
+                                font-size: 13px;
+                                color: #212529;
+                                margin-left: 2px;
+                            
+            
+                            }
+                        }
+                        .priceItalian{
+                            margin-top: 11px;
+                            span{
+                                margin-top: 10px;
+                                color: #bbc0c8;
+                                font-family: 'Dosis', sans-serif;
+                                font-size: 18px;
+                                margin-left: 7px;
+                            }
+                            #newPrice{
+                                font-family: 'Dosis', sans-serif;
+                                font-size: 20px;
+                                color: #ed174a;
+                                margin-left: 5px;
+                            }
+                        }
+                    }
+                }
+                .diamond{
+                    border-right: 1px solid #dbdce0;
+                    border-bottom: 1px solid #dbdce0;
+                    .prImg{
+                        position: relative;
+                        text-align: center;
+                        .prPercent{
+                            position: absolute;
+                            width: 50px;
+                            height: 25px;
+                            background-color: #2bbef9;
+                            border-radius: 4px;
+                            top: 15px;
+                            left: 5px;
+                            p{
+                                margin-top: 1px;
+                                font-size: 14px;
+                                color: white;
+                                font-family: 'Dosis', sans-serif;
+
+                            }
+                        }
+                        .recommended{
+                            position: absolute;
+                            top: 45px;
+                            left: 5px;
+                            background-color:#e5f8ed;
+                            width: 70px;
+                            height: 22px;
+                            border-radius: 15px;
+                            text-align: center;
+                            p{
+                                margin-top: 3px;
+                                font-size: 12px;
+                                color: #038e42;
+                                font-family: 'Dosis', sans-serif;
+
+                            }
+                        }
+                        img{
+                            width: 200px;
+                            margin-top: 15px;
+                        }
+                    }
+                    .contentDiamond{
+                        a{
+                            text-decoration: none;
+                            p{
+                                width: 205px;
+                                margin-left: 7px;
+                                color: #212529;
+                                font-family:"Inter", sans-serif;
+                                font-weight: 500;
+                                font-size: 14px;
+                                margin-top: 10px;
+                            }
+    
+                        }
+                        #stock{
+                            color: #038e42;
+                            font-size: .6875rem;
+                            margin-left: 9px;
+                            font-family: 'Dosis', sans-serif;
+                            font-weight: 600;
+                        }
+                        .rate{
+                            margin-left: 9px;
+                            margin-top: 10px;
+                            i{
+                                color: gold;
+                                font-size: 10px;
+                            }
+                        
+                            span{
+                                font-size: 13px;
+                                color: #212529;
+                                margin-left: 2px;
+                            
+            
+                            }
+                        }
+                        .priceItalian{
+                            margin-top: 11px;
+                            span{
+                                margin-top: 10px;
+                                color: #bbc0c8;
+                                font-family: 'Dosis', sans-serif;
+                                font-size: 18px;
+                                margin-left: 7px;
+                            }
+                            #newPrice{
+                                font-family: 'Dosis', sans-serif;
+                                font-size: 20px;
+                                color: #ed174a;
+                                margin-left: 5px;
+                            }
+                        }
+                    }
+                }
+                .chao{
+                    border-top: 1px solid #dbdce0;
+                    border-right: 1px solid #dbdce0;
+                    border-bottom: 1px solid #dbdce0;
+                    border-top-right-radius: 7px;
+                    .prImg{
+                        position: relative;
+                        text-align: center;
+                        .prPercent{
+                            position: absolute;
+                            width: 50px;
+                            height: 25px;
+                            background-color: #2bbef9;
+                            border-radius: 4px;
+                            top: 15px;
+                            left: 5px;
+                            p{
+                                margin-top: 1px;
+                                font-size: 14px;
+                                color: white;
+                                font-family: 'Dosis', sans-serif;
+
+                            }
+                        }
+                        .recommended{
+                            position: absolute;
+                            top: 45px;
+                            left: 5px;
+                            background-color:#e5f8ed;
+                            width: 70px;
+                            height: 22px;
+                            border-radius: 15px;
+                            text-align: center;
+                            p{
+                                margin-top: 3px;
+                                font-size: 12px;
+                                color: #038e42;
+                                font-family: 'Dosis', sans-serif;
+
+                            }
+                        }
+                        img{
+                            width: 200px;
+                            margin-top: 15px;
+                        }
+                    }
+                    .contentchao{
+                        a{
+                            text-decoration: none;
+                            p{
+                                width: 205px;
+                                margin-left: 7px;
+                                color: #212529;
+                                font-family:"Inter", sans-serif;
+                                font-weight: 500;
+                                font-size: 14px;
+                                margin-top: 10px;
+                            }
+    
+                        }
+                        #stock{
+                            color: #038e42;
+                            font-size: .6875rem;
+                            margin-left: 9px;
+                            font-family: 'Dosis', sans-serif;
+                            font-weight: 600;
+                        }
+                        .rate{
+                            margin-left: 9px;
+                            margin-top: 10px;
+                            i{
+                                color: gold;
+                                font-size: 10px;
+                            }
+                        
+                            span{
+                                font-size: 13px;
+                                color: #212529;
+                                margin-left: 2px;
+                            
+            
+                            }
+                        }
+                        .pricechao{
+                            margin-top: 11px;
+                            span{
+                                margin-top: 10px;
+                                color: #bbc0c8;
+                                font-family: 'Dosis', sans-serif;
+                                font-size: 18px;
+                                margin-left: 7px;
+                            }
+                            #newPrice{
+                                font-family: 'Dosis', sans-serif;
+                                font-size: 20px;
+                                color: #ed174a;
+                                margin-left: 5px;
+                            }
+                        }
+                    }
+                }
+                .blueberries{
+                    border-right: 1px solid #dbdce0;
+                    border-bottom: 1px solid #dbdce0;
+                    border-bottom-right-radius: 7px;
+                    .prImg{
+                        position: relative;
+                        text-align: center;
+                        .prPercent{
+                            position: absolute;
+                            width: 50px;
+                            height: 25px;
+                            background-color: #2bbef9;
+                            border-radius: 4px;
+                            top: 15px;
+                            left: 5px;
+                            p{
+                                margin-top: 1px;
+                                font-size: 14px;
+                                color: white;
+                                font-family: 'Dosis', sans-serif;
+
+                            }
+                        }
+                        img{
+                            width: 200px;
+                            margin-top: 15px;
+                        }
+                    }
+                    .contentberries{
+                        a{
+                            text-decoration: none;
+                            p{
+                                width: 205px;
+                                margin-left: 7px;
+                                color: #212529;
+                                font-family:"Inter", sans-serif;
+                                font-weight: 500;
+                                font-size: 14px;
+                                margin-top: 10px;
+                            }
+    
+                        }
+                        #stock{
+                            color: #038e42;
+                            font-size: .6875rem;
+                            margin-left: 9px;
+                            font-family: 'Dosis', sans-serif;
+                            font-weight: 600;
+                        }
+                        .rate{
+                            margin-left: 9px;
+                            margin-top: 10px;
+                            i{
+                                color: gold;
+                                font-size: 10px;
+                            }
+                            .unrateable{
+                                color: #bbc0c8;
+                            }
+                        
+                            span{
+                                font-size: 13px;
+                                color: #212529;
+                                margin-left: 2px;
+                            
+            
+                            }
+                        }
+                        .pricechao{
+                            margin-top: 11px;
+                            span{
+                                margin-top: 10px;
+                                color: #bbc0c8;
+                                font-family: 'Dosis', sans-serif;
+                                font-size: 18px;
+                                margin-left: 7px;
+                            }
+                            #newPrice{
+                                font-family: 'Dosis', sans-serif;
+                                font-size: 20px;
+                                color: #ed174a;
+                                margin-left: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 }
 
 
