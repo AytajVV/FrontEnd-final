@@ -1398,10 +1398,52 @@
   margin-bottom: 3px;
 }
 
+.bestSellers {
+  margin-top: 40px;
+  margin-left: -8px;
+  position: relative;
+}
+.bestSellers h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+.bestSellers p {
+  font-size: 13px;
+  color: #71778e;
+  font-family: "Inter", sans-serif;
+}
+.bestSellers .view {
+  width: 126px;
+  height: 35px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 50px;
+  text-align: center;
+  padding: 3px;
+  position: absolute;
+  right: -7px;
+  bottom: -9px;
+}
+.bestSellers .view a {
+  text-decoration: none;
+  color: gray;
+  font-size: 13px;
+}
+.bestSellers .view a i {
+  margin-left: 5px;
+}
+
+#slider {
+  margin-top: 100px;
+}
+
+.splide__slide {
+  height: 440px;
+}
+
 .splide__list .boom {
-  border-top: 1px solid #dbdce0;
   border-right: 1px solid #dbdce0;
-  border-bottom: 1px solid #dbdce0;
 }
 .splide__list .boom .prImg {
   position: relative;
@@ -1478,8 +1520,7 @@
   margin-left: 5px;
 }
 .splide__list .italian {
-  border: 1px solid #dbdce0;
-  border-top-left-radius: 7px;
+  border-right: 1px solid #dbdce0;
 }
 .splide__list .italian .prImg {
   position: relative;
@@ -1578,10 +1619,7 @@
   margin-left: 5px;
 }
 .splide__list .chao {
-  border-top: 1px solid #dbdce0;
   border-right: 1px solid #dbdce0;
-  border-bottom: 1px solid #dbdce0;
-  border-top-right-radius: 7px;
 }
 .splide__list .chao .prImg {
   position: relative;
@@ -1672,7 +1710,6 @@
 }
 .splide__list .diamond {
   border-right: 1px solid #dbdce0;
-  border-bottom: 1px solid #dbdce0;
 }
 .splide__list .diamond .prImg {
   position: relative;
@@ -1759,6 +1796,142 @@
   margin-left: 7px;
 }
 .splide__list .diamond .contentDiamond .priceItalian #newPrice {
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+  color: #ed174a;
+  margin-left: 5px;
+}
+.splide__list .yellowBtn {
+  padding: 3px 60px;
+  margin-left: 17px;
+  margin-top: 20px;
+  border-radius: 50px;
+  font-family: "Inter", sans-serif;
+  font-size: 0.75rem;
+  height: 2.125rem;
+}
+
+.save {
+  margin-top: 50px;
+}
+.save a {
+  text-decoration: none;
+}
+.save a .box {
+  background-color: #FBEACF;
+  width: 100%;
+  height: 60px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #202435;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.productsLists {
+  padding: 35px 1px;
+}
+.productsLists .row .col {
+  height: 400px;
+}
+.productsLists .row .italian {
+  border-right: 1px solid #dbdce0;
+}
+.productsLists .row .italian .prImg {
+  position: relative;
+  text-align: center;
+}
+.productsLists .row .italian .prImg .prPercent {
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  background-color: #2bbef9;
+  border-radius: 4px;
+  top: 15px;
+  left: 5px;
+}
+.productsLists .row .italian .prImg .prPercent p {
+  margin-top: 1px;
+  font-size: 14px;
+  color: white;
+  font-family: "Dosis", sans-serif;
+}
+.productsLists .row .italian .prImg .recommended {
+  position: absolute;
+  top: 45px;
+  left: 5px;
+  background-color: #71778e;
+  width: 90px;
+  height: 20px;
+  border-radius: 4px;
+}
+.productsLists .row .italian .prImg .recommended p {
+  margin-top: 2px;
+  font-size: 10px;
+  color: white;
+  font-family: "Dosis", sans-serif;
+}
+.productsLists .row .italian .prImg img {
+  width: 200px;
+  margin-top: 15px;
+}
+.productsLists .row .italian .contentItalian a {
+  text-decoration: none;
+}
+.productsLists .row .italian .contentItalian a p {
+  width: 200px;
+  margin-left: 7px;
+  color: #212529;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.productsLists .row .italian .contentItalian #stock {
+  color: #ed174a;
+  font-size: 0.6875rem;
+  margin-left: 9px;
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+}
+.productsLists .row .italian .contentItalian #stockin {
+  color: #038e42;
+  font-size: 0.6875rem;
+  margin-left: 9px;
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+}
+.productsLists .row .italian .contentItalian .rate {
+  margin-left: 9px;
+  margin-top: 10px;
+}
+.productsLists .row .italian .contentItalian .rate i {
+  color: gold;
+  font-size: 10px;
+}
+.productsLists .row .italian .contentItalian .rate .unrateable {
+  color: #bbc0c8;
+}
+.productsLists .row .italian .contentItalian .rate span {
+  font-size: 13px;
+  color: #212529;
+  margin-left: 2px;
+}
+.productsLists .row .italian .contentItalian .priceItalian {
+  margin-top: 11px;
+}
+.productsLists .row .italian .contentItalian .priceItalian span {
+  margin-top: 10px;
+  color: #bbc0c8;
+  font-family: "Dosis", sans-serif;
+  font-size: 18px;
+  margin-left: 7px;
+}
+.productsLists .row .italian .contentItalian .priceItalian #newPrice {
   font-family: "Dosis", sans-serif;
   font-size: 20px;
   color: #ed174a;

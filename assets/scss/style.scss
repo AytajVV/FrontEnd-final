@@ -1535,12 +1535,55 @@
             }
     }
 }
+.bestSellers{
+    margin-top: 40px;
+    margin-left: -8px;
+    position: relative;
+    h4{
+        font-family: "Inter", sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    p{
+        font-size: 13px;
+        color: #71778e;
+        font-family: "Inter", sans-serif;
 
+    }
+    .view{
+        width: 126px;
+        height: 35px;
+        background-color: white;
+        border: 1px solid gray;
+        border-radius: 50px;
+        text-align: center;
+        padding: 3px;
+        position: absolute;
+        right: -7px;
+        bottom: -9px;
+        a{
+            text-decoration: none;
+            color: gray;
+            font-size: 13px;
+            i{
+                margin-left: 5px;
+            }
+            
+        }
+    }
+}
+
+#slider{
+    margin-top: 100px;
+}
+.splide__slide{
+    height: 440px;
+}
 .splide__list{
     .boom{
-        border-top: 1px solid #dbdce0;
+        
         border-right: 1px solid #dbdce0;
-        border-bottom: 1px solid #dbdce0;
+        
         .prImg{
             position: relative;
             text-align: center;
@@ -1624,8 +1667,8 @@
         }
     }
     .italian{
-        border: 1px solid #dbdce0;
-        border-top-left-radius: 7px;
+        border-right: 1px solid #dbdce0;
+       
         .prImg{
             position: relative;
             text-align: center;
@@ -1733,10 +1776,9 @@
 
     }
     .chao{
-        border-top: 1px solid #dbdce0;
+        
         border-right: 1px solid #dbdce0;
-        border-bottom: 1px solid #dbdce0;
-        border-top-right-radius: 7px;
+        
         .prImg{
             position: relative;
             text-align: center;
@@ -1835,7 +1877,7 @@
     }
     .diamond{
         border-right: 1px solid #dbdce0;
-        border-bottom: 1px solid #dbdce0;
+        
         .prImg{
             position: relative;
             text-align: center;
@@ -1935,8 +1977,156 @@
             }
         }
     }
+    .yellowBtn{
+        padding: 3px 60px;
+        margin-left: 17px;
+        margin-top: 20px;
+        border-radius: 50px;
+        font-family: "Inter", sans-serif;
+        font-size: .75rem;
+        height: 2.125rem;
+    }
 }
 
+.save{
+    margin-top: 50px;
+    a{
+        text-decoration: none;
+        .box{
+            background-color: #FBEACF;
+            width: 100%;
+            height: 60px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            color: #202435;
+            font-family: "Inter", sans-serif;
+            font-weight: 700;
+            letter-spacing: 4px;
+        }
+    }
+}
+
+.productsLists{
+    padding: 35px 1px;
+    
+    .row{
+        .col{
+            height: 400px;
+        }
+        .italian{
+            border-right: 1px solid #dbdce0;
+           
+            .prImg{
+                position: relative;
+                text-align: center;
+                .prPercent{
+                    position: absolute;
+                    width: 50px;
+                    height: 25px;
+                    background-color: #2bbef9;
+                    border-radius: 4px;
+                    top: 15px;
+                    left: 5px;
+                    p{
+                        margin-top: 1px;
+                        font-size: 14px;
+                        color: white;
+                        font-family: 'Dosis', sans-serif;
+    
+                    }
+                }
+                .recommended{
+                    position: absolute;
+                    top: 45px;
+                    left: 5px;
+                    background-color:#71778e;
+                    width: 90px;
+                    height: 20px;
+                    border-radius: 4px;
+                    p{
+                        margin-top: 2px;
+                        font-size: 10px;
+                        color: white;
+                        font-family: 'Dosis', sans-serif;
+    
+                    }
+                }
+                
+                img{
+                    width: 200px;
+                    margin-top: 15px;
+                }
+            }
+            .contentItalian{
+                a{
+                    text-decoration: none;
+                    p{
+                        width: 200px;
+                        margin-left: 7px;
+                        color: #212529;
+                        font-family:"Inter", sans-serif;
+                        font-weight: 500;
+                        font-size: 14px;
+                        margin-top: 10px;
+                    }
+    
+                }
+                #stock{
+                    color: #ed174a;
+                    font-size: .6875rem;
+                    margin-left: 9px;
+                    font-family: 'Dosis', sans-serif;
+                    font-weight: 600;
+                }
+                #stockin{
+                    color: #038e42;
+                    font-size: .6875rem;
+                    margin-left: 9px;
+                    font-family: 'Dosis', sans-serif;
+                    font-weight: 600;
+                }
+                .rate{
+                    margin-left: 9px;
+                    margin-top: 10px;
+                    i{
+                        color: gold;
+                        font-size: 10px;
+                    }
+                    .unrateable{
+                        color: #bbc0c8;
+                    }
+                    span{
+                        font-size: 13px;
+                        color: #212529;
+                        margin-left: 2px;
+                    
+    
+                    }
+                }
+                .priceItalian{
+                    margin-top: 11px;
+                    span{
+                        margin-top: 10px;
+                        color: #bbc0c8;
+                        font-family: 'Dosis', sans-serif;
+                        font-size: 18px;
+                        margin-left: 7px;
+                    }
+                    #newPrice{
+                        font-family: 'Dosis', sans-serif;
+                        font-size: 20px;
+                        color: #ed174a;
+                        margin-left: 5px;
+                    }
+                }
+            }
+    
+        }
+    }
+}
 
 
 
