@@ -1936,4 +1936,112 @@
   font-size: 20px;
   color: #ed174a;
   margin-left: 5px;
+}
+
+.pictures .row {
+  width: 100%;
+  margin-top: 20px;
+}
+.pictures .col {
+  width: 400px;
+  height: 218px;
+  margin-left: 20px;
+  position: relative;
+}
+.pictures .col img {
+  width: 370px;
+  border-radius: 7px;
+}
+.pictures .contentEgg {
+  position: absolute;
+  top: 40px;
+  left: 50px;
+}
+.pictures .contentEgg p {
+  font-size: 14px;
+  color: green;
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+}
+.pictures .contentEgg h3 {
+  margin-top: -12px;
+  font-family: "Inter", sans-serif;
+  font-size: 23px;
+}
+.pictures .contentEgg #eat {
+  margin-top: -5px;
+  color: #bbc0c8;
+}
+.pictures .contentEgg button {
+  background-color: #bbc0c8;
+  border-radius: 50px;
+  width: 118px;
+  height: 32px;
+  padding: 0px;
+  font-size: 14px;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+.pictures2 .row {
+  width: 100%;
+  margin-top: 40px;
+}
+.pictures2 .col {
+  width: 400px;
+  height: 218px;
+  margin-left: 20px;
+}
+.pictures2 .col a {
+  text-decoration: none;
+}
+.pictures2 .col a p {
+  color: #bbc0c8;
+  font-size: 14px;
+  font-family: "Dosis", sans-serif;
+  margin-top: 17px;
+}
+.pictures2 .col a {
+  text-decoration: none;
+}
+.pictures2 .col a h4 {
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  color: black;
+  margin-top: -35px;
+}
+.pictures2 .col a {
+  text-decoration: none;
+  margin-left: -5px;
+}
+.pictures2 .col a span {
+  color: #71778e;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  margin-left: 10px;
+}
+.pictures2 .col a {
+  text-decoration: none;
+}
+.pictures2 .col a span {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  margin-left: 5px;
+  font-weight: 500;
+}
+.pictures2 .col a {
+  text-decoration: none;
+}
+.pictures2 .col a span {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  margin-left: 5px;
+  font-weight: 500;
+}
+.pictures2 .col a span i {
+  font-family: "Times New Roman", Times, serif;
+}
+.pictures2 .col img {
+  width: 370px;
+  border-radius: 7px;
 }/*# sourceMappingURL=style.css.map */

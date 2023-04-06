@@ -2128,6 +2128,139 @@
     }
 }
 
+.pictures{
+    .row{
+        width: 100%;
+        margin-top: 20px;
+    }
+   
+    .col{
+       
+        width: 400px;
+        height: 218px;
+        margin-left: 20px;
+        position: relative;
+        
+
+        img{
+            width: 370px;
+            border-radius: 7px;
+        }
+
+    }
+    .contentEgg{
+        position: absolute;
+        top: 40px;
+        left: 50px;
+        p{
+            font-size: 14px;
+            color: green;
+            font-family: "Dosis", sans-serif;
+            font-weight: 600;
+        }
+        h3{
+            margin-top: -12px;
+            font-family: "Inter", sans-serif;
+            font-size: 23px;
+
+        }
+        #eat{
+            margin-top: -5px;
+            color: #bbc0c8;
+        }
+        button{
+            background-color: #bbc0c8;
+            border-radius: 50px;
+            width: 118px;
+            height: 32px;
+            padding: 0px;
+            font-size: 14px;
+            color: white;
+            font-family: "Inter", sans-serif;
+
+        }
+
+    }
+        
+        
+        
+    
+}
+.pictures2{
+    .row{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .col{
+        
+        width: 400px;
+        height: 218px;
+        margin-left: 20px;
+        
+        a{
+            text-decoration: none;
+            
+            p{
+                color: #bbc0c8;
+                font-size: 14px;
+                font-family: "Dosis", sans-serif;
+                margin-top: 17px;
+            }
+            
+        }
+        a{
+            text-decoration: none;
+            h4{
+                font-size: 20px;
+                font-family: "Inter", sans-serif;
+                color: black;
+                margin-top: -35px;
+            }
+        }
+        a{
+            text-decoration: none;
+            margin-left: -5px;
+            span{
+                color: #71778e;
+                font-size: 14px;
+                font-family: "Inter", sans-serif;
+                margin-left: 10px;
+            }
+        }
+        a{
+            text-decoration: none;
+           
+            span{
+                font-size: 14px;
+                font-family: "Inter", sans-serif;
+                
+                margin-left: 5px;
+                font-weight: 500;
+            }
+        }
+        a{
+            text-decoration: none;
+            span{
+                font-size: 14px;
+                font-family: "Inter", sans-serif;
+                
+                margin-left: 5px;
+                font-weight: 500;
+                i{
+                    font-family: 'Times New Roman', Times, serif;
+                }
+            }
+        }
+        
+
+        img{
+            width: 370px;
+            border-radius: 7px;
+        }
+        
+    }
+    
+}
 
 
 
