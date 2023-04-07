@@ -1936,13 +1936,21 @@
   margin-top: 20px;
 }
 .pictures .col {
+<<<<<<< HEAD
   width: 352px;
+=======
+  width: 400px;
+>>>>>>> 55a99f343e795e67c79c3bc153d690b0f3f812a8
   height: 218px;
   margin-left: 20px;
   position: relative;
 }
 .pictures .col img {
+<<<<<<< HEAD
   width: 347px;
+=======
+  width: 370px;
+>>>>>>> 55a99f343e795e67c79c3bc153d690b0f3f812a8
   border-radius: 7px;
 }
 .pictures .contentEgg {
@@ -1981,7 +1989,11 @@
   margin-top: 40px;
 }
 .pictures2 .col {
+<<<<<<< HEAD
   width: 352px;
+=======
+  width: 400px;
+>>>>>>> 55a99f343e795e67c79c3bc153d690b0f3f812a8
   height: 218px;
   margin-left: 20px;
 }
@@ -1992,8 +2004,12 @@
   color: #bbc0c8;
   font-size: 14px;
   font-family: "Dosis", sans-serif;
+<<<<<<< HEAD
   margin-top: -8px;
   margin-left: 10px;
+=======
+  margin-top: 17px;
+>>>>>>> 55a99f343e795e67c79c3bc153d690b0f3f812a8
 }
 .pictures2 .col a {
   text-decoration: none;
@@ -2003,11 +2019,18 @@
   font-family: "Inter", sans-serif;
   color: black;
   margin-top: -35px;
+<<<<<<< HEAD
   margin-left: 6px;
 }
 .pictures2 .col a {
   text-decoration: none;
   margin-left: 1px;
+=======
+}
+.pictures2 .col a {
+  text-decoration: none;
+  margin-left: -5px;
+>>>>>>> 55a99f343e795e67c79c3bc153d690b0f3f812a8
 }
 .pictures2 .col a span {
   color: #71778e;
@@ -2021,7 +2044,11 @@
 .pictures2 .col a span {
   font-size: 14px;
   font-family: "Inter", sans-serif;
+<<<<<<< HEAD
   margin-left: 10px;
+=======
+  margin-left: 5px;
+>>>>>>> 55a99f343e795e67c79c3bc153d690b0f3f812a8
   font-weight: 500;
 }
 .pictures2 .col a {
@@ -2037,6 +2064,7 @@
   font-family: "Times New Roman", Times, serif;
 }
 .pictures2 .col img {
+<<<<<<< HEAD
   width: 347px;
   border-radius: 7px;
 }
@@ -2247,4 +2275,8 @@
 .footer-cont-right {
   display: flex;
   justify-content: space-between;
+=======
+  width: 370px;
+  border-radius: 7px;
+>>>>>>> 55a99f343e795e67c79c3bc153d690b0f3f812a8
 }/*# sourceMappingURL=style.css.map */
