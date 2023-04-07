@@ -1,0 +1,743 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// .container{
+//     width: 100%;
+//     height: 200px;
+//     background-color: yellow;
+// }
+// .row{
+//     width: 100%;
+//     height: 200px;
+//     background-color: teal;
+// }
+.main-menu {
+    background-color: white;
+    // width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(196, 198, 205, 255);
+    display: flex;
+
+    a {
+        text-decoration: none;
+        color: rgba(145, 148, 161, 255);
+        cursor: pointer;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    a:hover {
+        color: blue;
+    }
+
+    div {
+        padding: 12px 0px;
+        margin-left: 15px;
+        font-size: 13px;
+    }
+
+    .about-us {
+        margin-left: 110px;
+        color: rgba(196, 198, 205, 255);
+    }
+
+    .icon {
+        width: 380px;
+        height: 38px;
+        margin-left: 125px;
+        padding: 10px;
+        display: flex;
+    }
+
+    img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .secureSpan {
+        padding: 1px 0px;
+        margin-left: 8px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 13px;
+        color: rgba(196, 198, 205, 255);
+        border-right: 1px solid rgba(196, 198, 205, 255);
+        width: 360px;
+    }
+
+    .needHelp {
+        width: 200px;
+        font-size: 13px;
+        font-family: 'Open Sans', sans-serif;
+        color: rgba(196, 198, 205, 255);
+        padding: 10px 0px;
+        border-right: 1px solid rgba(196, 198, 205, 255);
+
+        a {
+            color: rgba(111, 211, 251, 255);
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown:hover {
+        color: blue;
+    }
+
+    .dropdown-content {
+        opacity: 0;
+        visibility: visible;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 100px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        left: -30px;
+        top: 40px;
+        transition: all 0.5s;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+        opacity: 1;
+        visibility: visible;
+
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 3px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+        color: blue;
+    }
+}
+
+@media (max-width:1300px) {
+    #headertop {
+        display: none;
+    }
+}
+
+.navbar {
+    padding: 27px 0px;
+}
+
+.navbar-brand {
+    position: relative;
+
+    img {
+        width: 164px;
+    }
+
+    span {
+        position: absolute;
+        color: #cecfd5;
+        display: block;
+        font-size: .6875rem;
+        margin-top: 2px
+    }
+}
+
+.selectLocation {
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid gray;
+    position: relative;
+    margin-left: 35px;
+    margin-top: 5px;
+    padding: 2px 32px;
+    width: 175px;
+    position: relative;
+    border-color: #dbdce0;
+    box-shadow: -1px 1px 2px -1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 1px 2px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 1px 2px -1px rgba(0, 0, 0, 0.75);
+
+    a {
+        text-decoration: none;
+        padding: 2px;
+
+        .yourL {
+            font-size: 10px;
+            margin-top: -20px;
+            margin-left: -10px;
+            color: #dbdce0;
+        }
+
+        .selectL {
+            font-size: 13px;
+            margin-left: -11px;
+            margin-top: -15px;
+            color: #293f97;
+
+        }
+
+        i {
+            position: absolute;
+            right: 20px;
+            top: 15px;
+            font-size: 12px;
+            color: #293f97;
+
+
+
+        }
+
+
+    }
+
+}
+
+#form {
+    margin-left: 30px;
+    margin-top: 7px;
+
+    input {
+        width: 530px;
+        height: 50px;
+        background-color: #f3f4f7;
+        border: 0px solid #f3f4f7;
+        border-radius: 5px;
+        padding: 25px 35px;
+        position: relative;
+    }
+
+    .fa-magnifying-glass {
+        position: absolute;
+        right: 185px;
+        top: 50px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+}
+
+.user {
+    margin-top: 6px;
+    margin-left: 15px;
+    padding: 7px 12px;
+    border: 1px solid #dbdce0;
+    border-radius: 50px;
+
+    i {
+        color: black;
+    }
+}
+
+.price {
+    margin-left: 20px;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.basket {
+    margin-left: 20px;
+    padding: 7px 12px;
+    border-radius: 50px;
+    background-color: #fff1ee;
+    position: relative;
+
+    a {
+        text-decoration: none;
+
+        i {
+            color: #ea2b0f;
+        }
+
+        .circle {
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            background-color: #ea2b0f;
+            top: 0px;
+            left: 29px;
+            border-radius: 50px;
+            font-size: 10px;
+            text-align: center;
+            color: white;
+        }
+    }
+}
+
+.home {
+    margin-left: 160px;
+    font-size: 15px;
+    font-family: 'Dosis', sans-serif;
+
+    i {
+        margin-left: 10px;
+        font-size: 13px;
+    }
+}
+
+.shop {
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: 'Dosis', sans-serif;
+
+    i {
+        margin-left: 10px;
+        font-size: 13px;
+    }
+}
+
+.meat {
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    margin-top: -4px;
+
+    img {
+        margin-bottom: 2px;
+    }
+}
+
+.bakery {
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    margin-top: -23px;
+    margin-left: -19px;
+
+    img {
+        width: 70px;
+        margin-bottom: 4px;
+        max-width: 100%;
+    }
+
+    span {
+        margin-left: -18px;
+    }
+}
+
+.beverages {
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    margin-top: -6px;
+
+    img {
+        margin-bottom: 7px;
+
+    }
+
+    span {
+        margin-left: 5px;
+    }
+}
+
+.blog {
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    margin-left: 16px;
+}
+
+.contact {
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    margin-left: 16px;
+}
+
+.allCategories {
+    width: 200px;
+    height: 50px;
+    background-color: #2bbef9;
+    display: flex;
+    position: relative;
+    border-radius: 25px;
+
+
+    .fa-bars {
+        margin: 18px 15px;
+        color: white;
+        font-size: 15px;
+    }
+
+    span {
+        margin: 14px 43px;
+        font-size: 15px;
+        font-family: 'Dosis', sans-serif;
+        color: white;
+
+    }
+
+    .fa-chevron-down {
+        position: absolute;
+        left: 167px;
+        top: 17px;
+        color: white;
+        font-size: 13px;
+    }
+
+    .products63 {
+        font-size: 10px;
+        width: 110px;
+        height: 20px;
+        background-color: whitesmoke;
+        margin-top: 39px;
+        border-radius: 50px;
+        justify-content: center;
+        text-align: center;
+        color: #858997;
+    }
+}
+
+.footer-container {
+    margin-top: 250px;
+}
+
+.footer-first {
+    width: 100%;
+    height: 400px;
+    border: 1px solid white;
+    background-color: #233a95;
+    position: relative;
+}
+
+.footer-first .footer-first-cont {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    color: white;
+    font-size: larger;
+
+}
+
+.footer-first .footer-first-cont p {
+    color: #9b9bb4;
+    font-size: smaller;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.footer-first .footer-first-cont .input-box {
+    width: 450px;
+    height: 60px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.footer-first .footer-first-cont .input-box input {
+    border: none;
+    margin-right: 97px;
+    font-size: 16px;
+    color: #e4e5ee;
+
+
+}
+
+.footer-first .footer-first-cont .input-box i {
+    color: #c2c2d3;
+    margin-left: 10px;
+}
+
+.footer-first .footer-first-cont .input-box button {
+    background-color: #233a95;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 13px;
+    border: none;
+    height: 54px;
+    width: 94px;
+    font-family: "Inter", sans-serif;
+}
+
+
+.footer-first .footer-first-img img {
+    position: absolute;
+    top: 122px;
+    right: 120px;
+}
+
+
+.footer-second {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding: 77px 155px;
+    margin-top: -32px;
+
+}
+
+.footer-second .elm {
+    border-right: 2px solid gray;
+    height: 30px;
+    padding-right: 35px;
+}
+
+.hr {
+
+
+    display: flex;
+    justify-content: center;
+    margin-top: -26px;
+    height: 110px;
+    background-color: #f7f8fd;
+
+    hr {
+        width: 1125px;
+    }
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 130px;
+    height: 460px;
+
+    .fruits-type-foot {
+        span {
+            font-size: 15px;
+            font-family: "Dosis", sans-serif;
+            color: #202435;
+        }
+
+        a {
+            text-decoration: none;
+            color: #71778E;
+        }
+
+        ul {
+            margin-top: 15px;
+        }
+
+        li {
+
+            font-size: 13px;
+            font-family: "Inter" sans-serif;
+            list-style-type: none;
+            margin-left: -32px;
+            margin-top: 10px;
+        }
+    }
+
+    .breakfast-type-foot {
+        span {
+            font-size: 15px;
+            font-family: "Dosis", sans-serif;
+            color: #202435;
+        }
+
+        a {
+            text-decoration: none;
+            color: #71778E;
+        }
+
+        ul {
+            margin-top: 15px;
+        }
+
+        li {
+
+            font-size: 13px;
+            font-family: "Inter" sans-serif;
+            list-style-type: none;
+            margin-left: -32px;
+            margin-top: 10px;
+        }
+    }
+
+    .meat-type-foot {
+        span {
+            font-size: 15px;
+            font-family: "Dosis", sans-serif;
+            color: #202435;
+        }
+
+        a {
+            text-decoration: none;
+            color: #71778E;
+        }
+
+        ul {
+            margin-top: 15px;
+        }
+
+        li {
+
+            font-size: 13px;
+            font-family: "Inter" sans-serif;
+            list-style-type: none;
+            margin-left: -32px;
+            margin-top: 10px;
+        }
+    }
+
+    .beverages-type-foot {
+        span {
+            font-size: 15px;
+            font-family: "Dosis", sans-serif;
+            color: #202435;
+        }
+
+        a {
+            text-decoration: none;
+            color: #71778E;
+        }
+
+        ul {
+            margin-top: 15px;
+        }
+
+        li {
+
+            font-size: 13px;
+            font-family: "Inter" sans-serif;
+            list-style-type: none;
+            margin-left: -32px;
+            margin-top: 10px;
+        }
+    }
+
+    .bakery-type-foot {
+        span {
+            font-size: 15px;
+            font-family: "Dosis", sans-serif;
+            color: #202435;
+        }
+
+        a {
+            text-decoration: none;
+            color: #71778E;
+        }
+
+        ul {
+            margin-top: 15px;
+        }
+
+        li {
+
+            font-size: 13px;
+            font-family: "Inter" sans-serif;
+            list-style-type: none;
+            margin-left: -32px;
+            margin-top: 10px;
+        }
+    }
+}
+
+
+
+
+.footer-forth {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.footer-cont-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.container {
+    .topDiv {
+        text-align: center;
+        margin-top: 40px;
+        font-family: "Inter", sans-serif;
+
+        h1 {
+            font-weight: 400;
+        }
+
+        p {
+            font-size: 14px;
+            font-family: "Inter", sans-serif;
+        }
+    }
+
+    .boxes {
+        display: flex;
+
+        .col {
+            background-color: #f3f3f6;
+            height: 200px;
+            margin-left: 40px;
+            border-radius: 7px;
+            border: 1px solid #edeef5;
+        }
+        .texts{
+            text-align: center;
+            padding: 40px;
+            i{
+                font-size: 36px;
+                color: #233a95;
+            }
+            h5{
+                margin-top: 25px;
+                font-size: 15px;
+                font-weight: 500;
+                font-family: "Inter", sans-serif;
+            }
+            p{
+                font-family: "Inter", sans-serif;
+                font-weight: 400;
+                letter-spacing: 0;
+                font-size: 13px;
+
+                
+            }
+        
+        }
+    }
+    .sendus{
+        padding: 0px 18px;
+        .sendDiv{
+            height: 600px;
+            background-color: white;
+            border-radius: 7px;
+            border: 1px solid #edeef5;
+            margin-left: 20px;
+            box-shadow: 0px 1px 23px -6px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 0px 1px 23px -6px rgba(0,0,0,0.75);
+            -moz-box-shadow: 0px 1px 23px -6px rgba(0,0,0,0.75);
+            .headerContent{
+                text-align: center;
+                padding: 80px 130px;
+            
+            
+                h2{
+                    font-size: 40px;
+                    font-family: "Inter", sans-serif;
+                    color: #202435;
+                    font-weight: 400;
+                }
+                p{
+                    font-size: 14px;
+                    font-family: "Inter", sans-serif;
+                    color: #202435;
+                    height: 105px;
+                    border-bottom: 1px solid #edeef5;
+                }
+            }
+           
+
+        }
+    }
+}

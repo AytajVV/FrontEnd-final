@@ -375,13 +375,6 @@
   margin-left: 10px;
 }
 
-.prevLeft {
-  margin-right: 25px;
-  padding: 17px 17px;
-  background-color: gray;
-  border-radius: 50px;
-}
-
 .classifications {
   margin-top: 40px;
   border: 1px solid #dbdce0;
@@ -1936,4 +1929,322 @@
   font-size: 20px;
   color: #ed174a;
   margin-left: 5px;
+}
+
+.pictures .row {
+  width: 100%;
+  margin-top: 20px;
+}
+.pictures .col {
+  width: 352px;
+  height: 218px;
+  margin-left: 20px;
+  position: relative;
+}
+.pictures .col img {
+  width: 347px;
+  border-radius: 7px;
+}
+.pictures .contentEgg {
+  position: absolute;
+  top: 40px;
+  left: 50px;
+}
+.pictures .contentEgg p {
+  font-size: 14px;
+  color: green;
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+}
+.pictures .contentEgg h3 {
+  margin-top: -12px;
+  font-family: "Inter", sans-serif;
+  font-size: 23px;
+}
+.pictures .contentEgg #eat {
+  margin-top: -5px;
+  color: #bbc0c8;
+}
+.pictures .contentEgg button {
+  background-color: #bbc0c8;
+  border-radius: 50px;
+  width: 118px;
+  height: 32px;
+  padding: 0px;
+  font-size: 14px;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+.pictures2 .row {
+  width: 100%;
+  margin-top: 40px;
+}
+.pictures2 .col {
+  width: 352px;
+  height: 218px;
+  margin-left: 20px;
+}
+.pictures2 .col a {
+  text-decoration: none;
+}
+.pictures2 .col a p {
+  color: #bbc0c8;
+  font-size: 14px;
+  font-family: "Dosis", sans-serif;
+  margin-top: -8px;
+  margin-left: 10px;
+}
+.pictures2 .col a {
+  text-decoration: none;
+}
+.pictures2 .col a h4 {
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  color: black;
+  margin-top: -35px;
+  margin-left: 6px;
+}
+.pictures2 .col a {
+  text-decoration: none;
+  margin-left: 1px;
+}
+.pictures2 .col a span {
+  color: #71778e;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  margin-left: 10px;
+}
+.pictures2 .col a {
+  text-decoration: none;
+}
+.pictures2 .col a span {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  margin-left: 10px;
+  font-weight: 500;
+}
+.pictures2 .col a {
+  text-decoration: none;
+}
+.pictures2 .col a span {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  margin-left: 5px;
+  font-weight: 500;
+}
+.pictures2 .col a span i {
+  font-family: "Times New Roman", Times, serif;
+}
+.pictures2 .col img {
+  width: 347px;
+  border-radius: 7px;
+}
+
+.footer-container {
+  margin-top: 250px;
+}
+
+.footer-first {
+  width: 100%;
+  height: 400px;
+  border: 1px solid white;
+  background-color: #233a95;
+  position: relative;
+}
+
+.footer-first .footer-first-cont {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  color: white;
+  font-size: larger;
+}
+
+.footer-first .footer-first-cont p {
+  color: #9b9bb4;
+  font-size: smaller;
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+
+.footer-first .footer-first-cont .input-box {
+  width: 450px;
+  height: 60px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.footer-first .footer-first-cont .input-box input {
+  border: none;
+  margin-right: 97px;
+  font-size: 16px;
+  color: #e4e5ee;
+}
+
+.footer-first .footer-first-cont .input-box i {
+  color: #c2c2d3;
+  margin-left: 10px;
+}
+
+.footer-first .footer-first-cont .input-box button {
+  background-color: #233a95;
+  color: white;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 13px;
+  border: none;
+  height: 54px;
+  width: 94px;
+  font-family: "Inter", sans-serif;
+}
+
+.footer-first .footer-first-img img {
+  position: absolute;
+  top: 122px;
+  right: 120px;
+}
+
+.footer-second {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  padding: 77px 155px;
+  margin-top: -32px;
+}
+
+.footer-second .elm {
+  border-right: 2px solid gray;
+  height: 30px;
+  padding-right: 35px;
+}
+
+.hr {
+  display: flex;
+  justify-content: center;
+  margin-top: -26px;
+  height: 110px;
+  background-color: #f7f8fd;
+}
+.hr hr {
+  width: 1125px;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 130px;
+  height: 460px;
+}
+.footer-box .fruits-type-foot span {
+  font-size: 15px;
+  font-family: "Dosis", sans-serif;
+  color: #202435;
+}
+.footer-box .fruits-type-foot a {
+  text-decoration: none;
+  color: #71778E;
+}
+.footer-box .fruits-type-foot ul {
+  margin-top: 15px;
+}
+.footer-box .fruits-type-foot li {
+  font-size: 13px;
+  font-family: "Inter" sans-serif;
+  list-style-type: none;
+  margin-left: -32px;
+  margin-top: 10px;
+}
+.footer-box .breakfast-type-foot span {
+  font-size: 15px;
+  font-family: "Dosis", sans-serif;
+  color: #202435;
+}
+.footer-box .breakfast-type-foot a {
+  text-decoration: none;
+  color: #71778E;
+}
+.footer-box .breakfast-type-foot ul {
+  margin-top: 15px;
+}
+.footer-box .breakfast-type-foot li {
+  font-size: 13px;
+  font-family: "Inter" sans-serif;
+  list-style-type: none;
+  margin-left: -32px;
+  margin-top: 10px;
+}
+.footer-box .meat-type-foot span {
+  font-size: 15px;
+  font-family: "Dosis", sans-serif;
+  color: #202435;
+}
+.footer-box .meat-type-foot a {
+  text-decoration: none;
+  color: #71778E;
+}
+.footer-box .meat-type-foot ul {
+  margin-top: 15px;
+}
+.footer-box .meat-type-foot li {
+  font-size: 13px;
+  font-family: "Inter" sans-serif;
+  list-style-type: none;
+  margin-left: -32px;
+  margin-top: 10px;
+}
+.footer-box .beverages-type-foot span {
+  font-size: 15px;
+  font-family: "Dosis", sans-serif;
+  color: #202435;
+}
+.footer-box .beverages-type-foot a {
+  text-decoration: none;
+  color: #71778E;
+}
+.footer-box .beverages-type-foot ul {
+  margin-top: 15px;
+}
+.footer-box .beverages-type-foot li {
+  font-size: 13px;
+  font-family: "Inter" sans-serif;
+  list-style-type: none;
+  margin-left: -32px;
+  margin-top: 10px;
+}
+.footer-box .bakery-type-foot span {
+  font-size: 15px;
+  font-family: "Dosis", sans-serif;
+  color: #202435;
+}
+.footer-box .bakery-type-foot a {
+  text-decoration: none;
+  color: #71778E;
+}
+.footer-box .bakery-type-foot ul {
+  margin-top: 15px;
+}
+.footer-box .bakery-type-foot li {
+  font-size: 13px;
+  font-family: "Inter" sans-serif;
+  list-style-type: none;
+  margin-left: -32px;
+  margin-top: 10px;
+}
+
+.footer-forth {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+}
+
+.footer-cont-right {
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */
