@@ -119,6 +119,21 @@
                             <span>ALL CATEGORIES</span>
                             <i class="fa-solid fa-chevron-down"></i>
                             <div class="products63">TOTAL 63 PRODUCTS</div>
+                            <div class="miniCategory" style="z-index: 1; display:none;">
+                              <div class="miniCat" style="width: 300px; height:333px; background-color: white; margin-top:52px; margin-left:-140px;">
+                                <div class="d-flex" style="font-size: 16px; padding:5px 16px;">
+                                  <i class="fa-solid fa-apple-whole"></i>
+                                  <p style="margin-left: 10px;">Fruits & Vegetables</p>
+                                </div>
+                                <div class="d-flex" style="font-size: 16px; padding:0px 16px;"><i class="fa-solid fa-bacon"></i><p style="margin-left: 10px;">Meats & Seafood</p></div>
+                                <div class="d-flex" style="font-size: 16px; padding:0px 16px;"><i class="fa-solid fa-egg"></i><p style="margin-left: 10px;">Breakfast & Dairy</p></div>
+                                <div class="d-flex" style="font-size: 16px; padding:0px 16px;"><i class="fa-solid fa-mug-hot"></i><p style="margin-left: 10px;">Beverages</p></div>
+                                <div class="d-flex" style="font-size: 16px; padding:0px 16px;"><i class="fa-solid fa-cookie"></i><p style="margin-left: 10px;">Breads & Bakery</p></div>
+                                <div class="d-flex" style="font-size: 16px; padding:0px 16px;"><i class="fa-solid fa-snowflake"></i><p style="margin-left: 10px;">Frozen Foods</p></div>
+                                <div class="d-flex" style="font-size: 16px; padding:0px 16px;"><i class="fa-solid fa-candy-cane"></i><p style="margin-left: 10px;">Biscuits & Snacks</p></div>
+                                <div class="d-flex" style="font-size: 16px; padding:0px 16px;"><i class="fa-brands fa-envira"></i><p style="margin-left: 10px;">Grocery & Staples</p></div>
+                              </div>
+                            </div>
                         </div>
                       </a>
                       <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -201,14 +216,19 @@
                         <div class="formLog">
                             <form action="">
                                 <p style="height: 13px;"><label for="email">Username or email address *</label></p>
-                                <input type="email" required id="email" name="">
+                                <input type="email" required id="email" name="" class="emailLog">
                                 <p style="height:13px;"><label for="pass" class="pass">Password *</label></p>
-                                <input type="password" name="" id="pass" required style="margin-top:20px;">
+                                <input type="password" name="" id="pass" required style="margin-top:20px;" class="passLog">
                                 <div class="check d-flex" style="padding: 7px;">
                                     <input style="width: 13px;" type="checkbox" name="" id=""><span style="margin-top: 13px; margin-left:8px; font-size:13px; font-family:'Inter', sans-serif; color:#202435">Remember me</span>
                                 </div>
-                                <button class="btn btn-primary">Log in</button>
+                                <button class="btn btn-primary logBtn">Log in</button>
                             </form>
+                            <div class="warning d-none">
+                              <span class="warningSpan">Error: Username is required.</span>
+                            
+                            </div>
+                          
                             <div class="lost" style="margin-top: 18px;">
                                 <a href="" class="hover" style="text-decoration: none; color:#2BBEF9; font-size:14px; font-family:'Inter', sans-serif; font-weight:500;"><span>Lost your password?</span></a>
                             </div>
@@ -217,15 +237,19 @@
                         <div class="formReg d-none">
                             <form action="">
                                 <p style="height: 13px;"><label for="email">Email address *</label></p>
-                                <input type="email" required id="email" name="">
+                                <input type="email" required id="email" name="" class="inputUserReg">
                                 <p style="height:13px;"><label for="pass" class="pass">Password *</label></p>
-                                <input type="password" name="" id="pass" required style="margin-top:20px;">
+                                <input type="password" name="" id="pass" required style="margin-top:20px;" class="inputPassReg">
                                 <div class="data">
                                     <p>Your personal data will be used to support your experience throughout this website, to manage access to your account,
                                         and for other purposes described in our <a href=""><u style="color: #ED174A;">privacy-policy.</u></a></p>
                                 </div>
-                                <button class="btn btn-primary">Register</button>
+                                <button class="btn btn-primary RegBtn">Register</button>
                             </form>
+                            <div class="warningReg d-none">
+                              <span class="warningSpanReg">Please provide a valid email address</span>
+                            
+                            </div>
                             
                         </div>
                     </div>

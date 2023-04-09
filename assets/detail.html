@@ -119,6 +119,21 @@
                             <span>ALL CATEGORIES</span>
                             <i class="fa-solid fa-chevron-down"></i>
                             <div class="products63">TOTAL 63 PRODUCTS</div>
+                            <div class="miniCategory" style="z-index: 1; display:none;">
+                              <div class="miniCat" style="width: 300px; height:333px; background-color: white; margin-top:52px; margin-left:-140px;">
+                                <div class="d-flex" style="font-size: 16px; padding:5px 16px;">
+                                  <i class="fa-solid fa-apple-whole"></i>
+                                  <p style="margin-left: 10px;">Fruits & Vegetables</p>
+                                </div>
+                                <div class="d-flex" style="font-size: 16px; padding:0px 16px;"><i class="fa-solid fa-bacon"></i><p style="margin-left: 10px;">Meats & Seafood</p></div>
+                                <div class="d-flex" style="font-size: 16px; padding:0px 16px;"><i class="fa-solid fa-egg"></i><p style="margin-left: 10px;">Breakfast & Dairy</p></div>
+                                <div class="d-flex" style="font-size: 16px; padding:0px 16px;"><i class="fa-solid fa-mug-hot"></i><p style="margin-left: 10px;">Beverages</p></div>
+                                <div class="d-flex" style="font-size: 16px; padding:0px 16px;"><i class="fa-solid fa-cookie"></i><p style="margin-left: 10px;">Breads & Bakery</p></div>
+                                <div class="d-flex" style="font-size: 16px; padding:0px 16px;"><i class="fa-solid fa-snowflake"></i><p style="margin-left: 10px;">Frozen Foods</p></div>
+                                <div class="d-flex" style="font-size: 16px; padding:0px 16px;"><i class="fa-solid fa-candy-cane"></i><p style="margin-left: 10px;">Biscuits & Snacks</p></div>
+                                <div class="d-flex" style="font-size: 16px; padding:0px 16px;"><i class="fa-brands fa-envira"></i><p style="margin-left: 10px;">Grocery & Staples</p></div>
+                              </div>
+                            </div>
                         </div>
                       </a>
                       <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -213,7 +228,7 @@
                     <div class="col-5">
                         <div class="box">
                             <div class="mainImg">
-                                <img src="./img/product-image-62-600x540.jpg" alt="">
+                                <img id="mainImg" src="./img/product-image-62-600x540.jpg" alt="">
                             </div>
                             <div class="prPercent">
                                 <p>23%</p>
@@ -222,13 +237,13 @@
                                 <p>RECOMMENDED</p>
                             </div>
                             <div class="miniImg">
-                                <div class="firstImg">
+                                <div class="firstImg" style="cursor: pointer;">
                                     <img src="./img/product-image-62-150x150.jpg" alt="">
                                 </div>
-                                <div class="firstImg">
+                                <div class="firstImg secondImg" style="cursor: pointer;">
                                     <img src="./img/product-image2-47-150x150.jpg" alt="">
                                 </div>
-                                <div class="firstImg">
+                                <div class="firstImg thirdImg" style="cursor: pointer;">
                                     <img src="./img/product-image3-35-150x150.jpg" alt="">
                                 </div>
 
@@ -368,9 +383,137 @@
             </div>
           </div>
         </div>
+        
+        
     </section>
 
-
+<section>
+  <div class="relatedProducts">
+    <h4>RELATED PRODUCTS</h4>
+  </div>
+  <div class="container">
+          
+    <div class="row related">
+      
+      <div class="col">
+        <div class="box box1">
+          <div class="img">
+            <div class="prPercent">
+              <p>16%</p>
+            </div>
+            <img src="./img/product-image-48-346x310.jpg" alt="">
+          </div>
+          <div class="content">
+            <a href="">Encore Seafoods Stuffed Alaskan Salmon</a>
+            <p class="instock">IN STOCK</p>
+            <div class="rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>1</span>
+            </div>
+            <div class="priceItalian">
+              <span style="text-decoration: line-through;">$32.49</span>
+              <span id="newPrice">$27.49</span>
+            </div>
+            <div class="addBtn">
+              <button class="btn btn-primary">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="box">
+          <div class="img">
+            <div class="prPercent">
+              <p>38%</p>
+            </div>
+            <img src="./img/product-image-7-346x310.jpg" alt="">
+          </div>
+          <div class="content">
+            <a href="">USDA Choice Angus Beef Stew Meat</a>
+            <p class="instock">IN STOCK</p>
+            <div class="rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star unrateable"></i>
+              <span>1</span>
+            </div>
+            <div class="priceItalian">
+              <span style="text-decoration: line-through;">$79.99</span>
+              <span id="newPrice">$49.99</span>
+            </div>
+            <div class="addBtn">
+              <button class="btn btn-primary">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="box">
+          <div class="img">
+            <div class="prPercent d-none">
+              <p>16%</p>
+            </div>
+            <img src="./img/product-image-31-346x310.jpg" alt="">
+          </div>
+          <div class="content">
+            <a href="">Organic 100% Grassfed 85_15 Ground Beef</a>
+            <p class="instock">IN STOCK</p>
+            <div class="rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star unrateable"></i>
+              <span>1</span>
+            </div>
+            <div class="priceItalian">
+              <span id="newPrice">$5.99</span>
+            </div>
+            <div class="addBtn">
+              <button class="btn btn-primary">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="box" style="border: none;">
+          <div class="img">
+            <div class="prPercent">
+              <p>26%</p>
+            </div>
+            <img src="./img/product-image-4-346x310.jpg" alt="">
+          </div>
+          <div class="content">
+            <a href="">Warrior Blend Organic</a>
+            <p class="instock">IN STOCK</p>
+            <div class="rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star unrateable"></i>
+              <i class="fa-solid fa-star unrateable"></i>
+              <span>1</span>
+            </div>
+            <div class="priceItalian">
+              <span style="text-decoration: line-through;">$39.00</span>
+              <span id="newPrice">$29.00</span>
+            </div>
+            <div class="addBtn">
+              <button class="btn btn-primary">Add to cart</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
     <section id="footer">
@@ -507,3 +650,6 @@
           </div>
         </div>
     </section>
+    </body>
+    <script src="./js/detail.js"></script>
+</html>

@@ -119,6 +119,21 @@
                             <span>ALL CATEGORIES</span>
                             <i class="fa-solid fa-chevron-down"></i>
                             <div class="products63">TOTAL 63 PRODUCTS</div>
+                            <div class="miniCategory" style="z-index: 1; display:none;">
+                              <div class="miniCat" style="width: 300px; height:333px; background-color: white; margin-top:52px; margin-left:-140px;">
+                                <div class="d-flex" style="font-size: 16px; padding:5px 16px;">
+                                  <i class="fa-solid fa-apple-whole"></i>
+                                  <p style="margin-left: 10px;">Fruits & Vegetables</p>
+                                </div>
+                                <div class="d-flex" style="font-size: 16px; padding:0px 16px;"><i class="fa-solid fa-bacon"></i><p style="margin-left: 10px;">Meats & Seafood</p></div>
+                                <div class="d-flex" style="font-size: 16px; padding:0px 16px;"><i class="fa-solid fa-egg"></i><p style="margin-left: 10px;">Breakfast & Dairy</p></div>
+                                <div class="d-flex" style="font-size: 16px; padding:0px 16px;"><i class="fa-solid fa-mug-hot"></i><p style="margin-left: 10px;">Beverages</p></div>
+                                <div class="d-flex" style="font-size: 16px; padding:0px 16px;"><i class="fa-solid fa-cookie"></i><p style="margin-left: 10px;">Breads & Bakery</p></div>
+                                <div class="d-flex" style="font-size: 16px; padding:0px 16px;"><i class="fa-solid fa-snowflake"></i><p style="margin-left: 10px;">Frozen Foods</p></div>
+                                <div class="d-flex" style="font-size: 16px; padding:0px 16px;"><i class="fa-solid fa-candy-cane"></i><p style="margin-left: 10px;">Biscuits & Snacks</p></div>
+                                <div class="d-flex" style="font-size: 16px; padding:0px 16px;"><i class="fa-brands fa-envira"></i><p style="margin-left: 10px;">Grocery & Staples</p></div>
+                              </div>
+                            </div>
                         </div>
                       </a>
                       <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -179,7 +194,7 @@
         </div>
     </section>
     <section>
-        <div id="carouselExampleControls" class="carousel slide pe-0" data-bs-ride="carousel">
+        <div id="carouselExampleControls" class="carousel slide pe-0" data-bs-ride="carousel" >
             <div class="carousel-inner">
               <div class="carousel-item active position-relative">
                 <img src="./img/slider-image-6.jpg" class="d-block w-100" alt="...">
@@ -354,13 +369,13 @@
             <div class="titleDeals">
               <p>Deals of the <b>week!</b></p>
               <div class="redboxes">
-                <div class="box"></div>
+                <div class="box" id="day"></div>
                 <p>:</p>
-                <div class="box"></div>
+                <div class="box" id="hours"></div>
                 <p>:</p>
-                <div class="box"></div>
+                <div class="box" id="minutes"></div>
                 <p>:</p>
-                <div class="box"></div>
+                <div class="box" id="seconds"></div>
               </div>
               <p id="remains">Remains until the end of the offer</p>
             </div>
@@ -403,7 +418,7 @@
             <div class="row">
               <div class="col-12 d-flex" style="height: 800px;">
                 <div class="col-4" style="background-color: white; height:800px">
-                  <div class="col-12 italian" style="height: 400px;">
+                  <div class="col-12 italian hover" style="height: 400px;">
                     <div class="prImg">
                       <div class="prPercent">
                         <p>23%</p>
@@ -429,6 +444,9 @@
                       <div class="priceItalian">
                         <span style="text-decoration: line-through;">$9.35</span>
                         <span id="newPrice">$7.25</span>
+                      </div>
+                      <div class="addBtn">
+                        <button class="btn btn-primary">Read more</button>
                       </div>
                     </div>
                   </div>
@@ -1144,7 +1162,6 @@
       </div>
     </section>
     <section>
-<<<<<<< HEAD
       <section>
         <div class="container pictures">
           <div class="row d-flex">
@@ -1380,36 +1397,6 @@
               <i class="fa-brands fa-twitter"></i>
               <i class="fa-brands fa-instagram"></i>
             </div>
-=======
-      <div class="container pictures">
-        <div class="row d-flex">
-          <div class="col">
-            <div class="contentEgg">
-              <p>WEEKEND DISCOUNT 20%</p>
-              <h3>Natural Eggs</h3>
-              <p id="eat">Eat one every day</p>
-              <button class="btn">Shop Now</button>
-            </div>
-            <img src="./img/bacola-banner-05.jpg" alt="">
-          </div>
-          <div class="col">
-            <div class="contentEgg">
-              <p>WEEKEND DISCOUNT 40%</p>
-              <h3>Taste the Best</h3>
-              <p id="eat">Shine the morning</p>
-              <button class="btn">Shop Now</button>
-            </div>
-            <img src="./img/bacola-banner-06.jpg" alt="">
-          </div>
-          <div class="col">
-            <div class="contentEgg">
-              <p>WEEKEND DISCOUNT 30%</p>
-              <h3>Ditch the Junk</h3>
-              <p id="eat">Breakfast made better</p>
-              <button class="btn">Shop Now</button>
-            </div>
-           <img src="./img/bacola-banner-10.jpg" alt="">
->>>>>>> 55a99f343e795e67c79c3bc153d690b0f3f812a8
           </div>
         </div>
       </div>

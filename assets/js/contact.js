@@ -55,3 +55,17 @@ sendBtn.addEventListener("click", function(e){
 // if (subInput.value != "") {
 //     subSpan.classList.add("d-none");
 // }
+
+let allCategories = document.querySelector(".allCategories");
+  let miniCat = document.querySelector(".miniCategory");
+
+  allCategories.addEventListener("click", function(){
+    if (miniCat.style.display == 'none') {
+      miniCat.style.display='block'
+    
+    }
+    else{
+      miniCat.style.display='none'
+    }
+  
+  })

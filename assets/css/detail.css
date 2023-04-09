@@ -808,4 +808,128 @@ body {
   padding: 7px 36px;
   font-family: "Inter", sans-serif;
   font-size: 15px;
+}
+
+.relatedProducts {
+  position: relative;
+}
+.relatedProducts h4 {
+  font-size: 20px;
+  font-family: "Dosis", sans-serif;
+  color: #202435;
+  position: absolute;
+  bottom: 12px;
+  left: 110px;
+}
+
+.container .related {
+  background-color: white;
+  margin-top: 90px;
+  border: 1px solid #f7f8fd;
+  border-radius: 7px;
+  height: 425px;
+}
+.container .related .col {
+  width: 280px;
+}
+.container .related .col .box {
+  height: 425px;
+  padding: 13px 12px;
+  width: 284px;
+  border-right: 1px solid #f7f8fd;
+}
+.container .related .col .box .addBtn {
+  text-align: center;
+  margin-top: 30px;
+}
+.container .related .col .box .addBtn button {
+  padding: 5px 78px;
+  border-radius: 30px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  background-color: rgb(2, 3, 129);
+  border: none;
+  opacity: 0;
+}
+.container .related .col .box .img {
+  position: relative;
+}
+.container .related .col .box .img .prPercent {
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  background-color: #2bbef9;
+  border-radius: 4px;
+  top: 15px;
+  left: 5px;
+  text-align: center;
+}
+.container .related .col .box .img .prPercent p {
+  margin-top: 1px;
+  font-size: 14px;
+  color: white;
+  font-family: "Dosis", sans-serif;
+}
+.container .related .col .box .img img {
+  width: 261px;
+}
+.container .related .col .box .content {
+  padding: 1px 8px;
+}
+.container .related .col .box .content a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  color: #202435;
+  font-weight: 500;
+  line-height: 1.4;
+}
+.container .related .col .box .content .instock {
+  color: #038e42;
+  font-size: 0.6875rem;
+  margin-left: 4px;
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.container .related .col .box .content .rate {
+  margin-left: 0px;
+  margin-top: -10px;
+}
+.container .related .col .box .content .rate i {
+  color: gold;
+  font-size: 10px;
+}
+.container .related .col .box .content .rate .unrateable {
+  color: #bbc0c8;
+}
+.container .related .col .box .content .rate span {
+  font-size: 13px;
+  color: #212529;
+  margin-left: 2px;
+}
+.container .related .col .box .content .priceItalian {
+  margin-top: 11px;
+}
+.container .related .col .box .content .priceItalian span {
+  margin-top: 10px;
+  color: #bbc0c8;
+  font-family: "Dosis", sans-serif;
+  font-size: 18px;
+  margin-left: 0px;
+}
+.container .related .col .box .content .priceItalian #newPrice {
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+  color: #ed174a;
+  margin-left: 5px;
+}
+.container .related .col .box:hover {
+  height: 500px;
+  background-color: white;
+  border: 1px solid #bbc0c8;
+}
+.container .related .col .box:hover button {
+  transition: all 0.5s;
+  opacity: 1;
 }/*# sourceMappingURL=detail.css.map */

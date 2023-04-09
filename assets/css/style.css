@@ -700,6 +700,10 @@
   background-color: #ed174a;
   margin-left: 7px;
   border-radius: 8px;
+  padding: 7px 12px;
+  color: white;
+  font-family: "Dosis", sans-serif;
+  font-size: 24px;
 }
 .deals .mainDeal .titleDeals .redboxes p {
   margin-top: 10px;
@@ -813,6 +817,17 @@
 .deals .col-8 .col-12 {
   padding: 0px 11px;
   margin-left: 0px;
+}
+.deals .col-8 .col-12 .addBtn button {
+  margin-top: 20px;
+  margin-left: 21px;
+  padding: 4px 47px;
+  border-radius: 17px;
+  background-color: #233a95;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  opacity: 0;
 }
 .deals .col-8 .col-12 .col-4 .italian {
   border: 1px solid #dbdce0;
@@ -1306,6 +1321,13 @@
   font-size: 20px;
   color: #ed174a;
   margin-left: 5px;
+}
+
+.hover .col-12 {
+  height: 438px;
+}
+.hover .col-12 button {
+  opacity: 1;
 }
 
 .banner .col-6 {
@@ -1936,21 +1958,13 @@
   margin-top: 20px;
 }
 .pictures .col {
-<<<<<<< HEAD
   width: 352px;
-=======
-  width: 400px;
->>>>>>> 55a99f343e795e67c79c3bc153d690b0f3f812a8
   height: 218px;
   margin-left: 20px;
   position: relative;
 }
 .pictures .col img {
-<<<<<<< HEAD
   width: 347px;
-=======
-  width: 370px;
->>>>>>> 55a99f343e795e67c79c3bc153d690b0f3f812a8
   border-radius: 7px;
 }
 .pictures .contentEgg {
@@ -1989,11 +2003,7 @@
   margin-top: 40px;
 }
 .pictures2 .col {
-<<<<<<< HEAD
   width: 352px;
-=======
-  width: 400px;
->>>>>>> 55a99f343e795e67c79c3bc153d690b0f3f812a8
   height: 218px;
   margin-left: 20px;
 }
@@ -2004,12 +2014,8 @@
   color: #bbc0c8;
   font-size: 14px;
   font-family: "Dosis", sans-serif;
-<<<<<<< HEAD
   margin-top: -8px;
   margin-left: 10px;
-=======
-  margin-top: 17px;
->>>>>>> 55a99f343e795e67c79c3bc153d690b0f3f812a8
 }
 .pictures2 .col a {
   text-decoration: none;
@@ -2019,18 +2025,11 @@
   font-family: "Inter", sans-serif;
   color: black;
   margin-top: -35px;
-<<<<<<< HEAD
   margin-left: 6px;
 }
 .pictures2 .col a {
   text-decoration: none;
   margin-left: 1px;
-=======
-}
-.pictures2 .col a {
-  text-decoration: none;
-  margin-left: -5px;
->>>>>>> 55a99f343e795e67c79c3bc153d690b0f3f812a8
 }
 .pictures2 .col a span {
   color: #71778e;
@@ -2044,11 +2043,7 @@
 .pictures2 .col a span {
   font-size: 14px;
   font-family: "Inter", sans-serif;
-<<<<<<< HEAD
   margin-left: 10px;
-=======
-  margin-left: 5px;
->>>>>>> 55a99f343e795e67c79c3bc153d690b0f3f812a8
   font-weight: 500;
 }
 .pictures2 .col a {
@@ -2064,7 +2059,6 @@
   font-family: "Times New Roman", Times, serif;
 }
 .pictures2 .col img {
-<<<<<<< HEAD
   width: 347px;
   border-radius: 7px;
 }
@@ -2275,8 +2269,4 @@
 .footer-cont-right {
   display: flex;
   justify-content: space-between;
-=======
-  width: 370px;
-  border-radius: 7px;
->>>>>>> 55a99f343e795e67c79c3bc153d690b0f3f812a8
 }/*# sourceMappingURL=style.css.map */
